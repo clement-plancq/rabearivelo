@@ -3840,10 +3840,7 @@ Puisse-t-il me porter bonheur !<lb/>
                 </div>
                 <div type="fr" xml:lang="fr" facs="de9d5c0c9ed7aff39221085ccdc0d71c.jpg">
                     <head>Reconnaissance à Paul Gauguin</head>
-                    <quote>
-                        <ref>Pour Urbain-Faurec<anchor n="a" xml:id="note-26fr-a"/>
-                        </ref>
-                    </quote>
+                    <head type="dedication">Pour Urbain-Faurec<anchor n="a" xml:id="note-26fr-a"/></head>
                     <lg>
                         <l>Je compare, je confronte</l>
                         <l>les ombres des ombres animées par le maître</l>
