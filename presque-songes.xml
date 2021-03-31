@@ -9,11 +9,11 @@
                 <editor>Claire Riffard</editor>
                 <respStmt>            
                     <resp>Mis au format numérique, revu et corrigé par</resp>            
-                    <name type="collaborator" full="yes" instant="false">Clément Plancq</name>         
+                    <name type="collaborator" full="yes">Clément Plancq</name>         
                 </respStmt>      
             </titleStmt>      
             <editionStmt>         
-                <edition>Première édition, <date instant="false">2020</date>.</edition>      
+                <edition>Première édition, <date>2020</date>.</edition>      
             </editionStmt>      
             <publicationStmt>         
                 <publisher>ITEM (UMR 8132 CNRS-ENS)</publisher>         
@@ -21,15 +21,15 @@
                 <address>
                     <addrLine>"http://item-cnrs.fr"</addrLine>
                 </address>         
-                <availability status="restricted" default="false">
+                <availability>
                     <licence target="http://creativecommons.org/licenses/CC BY-SA 4.0/">Distributed under a Creative Commons License - Attribution-ShareAlike 4.0 International </licence>
                 </availability>             
-                <date instant="false">2017</date>  
+                <date>2017</date>  
                 <distributor>Huma-Num, sur le site <ref target="https://rabearivelo.huma-num.fr/presque-songes.xml">https://rabearivelo.huma-num.fr/</ref>
                 </distributor>
             </publicationStmt>      
             <notesStmt>         
-                <note anchored="true">Nous nous fondons sur l’édition originale de 1934. Mais Rabearivelo n’a publié que le texte français du recueil. Ainsi, l’édition de référence ne couvre que la moitié du corpus. Du texte malgache nous ne possédons ni édition originale ni tapuscrit. Nous suivons donc la leçon du manuscrit. Ce choix n’est pas sans conséquences ; il génère un déséquilibre entre les deux versions du texte, puisque Rabearivelo a procédé à des modifications lors du passage au tapuscrit, puis à l’édition originale. Le texte malgache n’est donc pas présenté ici dans le même état d’achèvement. Nous choisissons de le laisser tel, y compris dans la ponctuation et la mise en page, pour ne pas interpréter à tort l’intention du poète. Seule exception : nous avons ajouté des points en fin de strophe.</note>
+                <note>Nous nous fondons sur l’édition originale de 1934. Mais Rabearivelo n’a publié que le texte français du recueil. Ainsi, l’édition de référence ne couvre que la moitié du corpus. Du texte malgache nous ne possédons ni édition originale ni tapuscrit. Nous suivons donc la leçon du manuscrit. Ce choix n’est pas sans conséquences ; il génère un déséquilibre entre les deux versions du texte, puisque Rabearivelo a procédé à des modifications lors du passage au tapuscrit, puis à l’édition originale. Le texte malgache n’est donc pas présenté ici dans le même état d’achèvement. Nous choisissons de le laisser tel, y compris dans la ponctuation et la mise en page, pour ne pas interpréter à tort l’intention du poète. Seule exception : nous avons ajouté des points en fin de strophe.</note>
                 <note>
                     <p>Quant aux illustrations de l’édition originale, ce sont deux eaux-fortes signées Urbain-Faurec, pseudonyme d’Urbain Faure. La première, intercalée entre les poèmes « Fièvre des îles » et « Fruits », représente un plateau de fruits placé au bord d’une fenêtre bordée sur le côté gauche de lourds rideaux, et qui laisse apercevoir un paysage de palmiers. La deuxième, insérée dans le poème « Imprimés », après le vers 40, représente un globe terrestre sur une table jonchée de livres et de lettres qui s’envolent sur le côté gauche. En haut à gauche, des fleurs grimpantes. L’opinion de JJR sur ces eaux-fortes est mitigée, les <hi rend="italic">CB</hi> en témoignent :</p>
                     
@@ -39,8 +39,8 @@
                     <p>On dira peu de choses de la préface de Robert Boudry, qui s’attache d’abord à décrire la première rencontre entre le jeune poète de trente ans et l’administrateur. Boudry est surpris du décalage entre l’homme – « presque un enfant » – et sa poésie. Allégeance aux clichés coloniaux sur la mentalité primitive ? Il est vrai que sur les photos que l’on a conservées de lui, JJR semble d’une grande jeunesse, avec son front large orné d’une « couronne de cheveux ondulés ». Boudry aborde ensuite les thèmes chers au poète, avant tout la description des paysages immenses de l’Imerina, comme hantés par des foules en habits blancs. La poésie de JJR est qualifiée d’<hi rend="italic">agreste</hi> et de <hi rend="italic">nostalgique</hi>, revenant par là aux « thèmes de la poésie universelle, que ce soit l’espoir des récoltes estivales, le mystère de la forêt prochaine ou l’inconnu de la mort toujours présente ». Mais Boudry, préfacier méthodique, n’a pas encore dévoilé l’essentiel : l’écriture du recueil. Conformément à la lettre que lui a envoyée l'auteur, il tient les poèmes pour écrits en hova, puis traduits en français ; outre leur inspiration proprement malgache, Boudry lit dans ces poèmes des « moyens d’expression » spécifiques et insiste sur l’originalité du rythme et des images employés. En cela, il se montre lecteur perspicace par delà son attrait pour l’exotisme de l’inspiration dans <hi rend="italic">Presque-Songes</hi>.</p>
                 </note>
             </notesStmt>      
-            <sourceDesc default="false">
-                <biblStruct xml:lang="fr" default="false" status="draft">            
+            <sourceDesc>
+                <biblStruct>            
                     <monogr>               
                         <author>Jean-Joseph Rabearivelo</author>               
                         <title>PRESQUE-SONGES<lb/>
@@ -50,29 +50,43 @@
                             <pubPlace>TANANARIVE</pubPlace>                  
                             <publisher>Henri Vidalie, Librairie des Arts Graphiques</publisher>                  
                             <date>1934</date>                  
-                            <note anchored="true">24X33</note>                  
-                            <note anchored="true">Non paginé (78 p.).</note>               
+                            <note>24X33</note>                  
+                            <note>Non paginé (78 p.).</note>               
                         </imprint>            
                     </monogr>        
-                </biblStruct>      
+                </biblStruct> 
+                <listBibl>
+                    <head>Nous pouvons reconstituer cinq états génétiques du texte : un état manuscrit, trois états tapuscrits et un texte imprimé. Un cahier manuscrit trouvé dans la malle familiale contenant le texte des recueils <hi rend="italic">Presque-Songes</hi> et <hi rend="italic">Traduit de la Nuit</hi> dans la continuité, constitue la phase rédactionnelle du recueil. Plusieurs tapuscrits témoignent de la phase pré-éditoriale du dossier génétique.Certains poèmes du recueil paraissent d’abord en revues.</head>
+                    <bibl>Ms1 : cahier d’écolier 50 pages comportant 25 feuillets en mauvais état, dont les 21 premiers sont écrits recto verso ; encre bleu-noir. La couverture (f° 1) est annotée par des propositions de titre. Du verso de cette couverture (f° 1v) au folio 15 du cahier, figure le texte du recueil <hi rend="italic">Presque-Songes</hi>. Les poèmes sont tous rédigés en deux versions, malgache et française. La date d’écriture, identique, est portée à la fin des deux versions. Le premier poème est daté du 22/6/31, le dernier du 19/9/31. Les poèmes sont classés dans un ordre différent de celui retenu pour l’édition originale. </bibl>
+                    <bibl>Tps1 : un ensemble tapuscrit de 36 feuillets séparés (21 x 13,5), sans date, reprenant l’ensemble des poèmes du recueil. Ces feuillets sont de papier très fin et parfois annotés à l’encre bleu-noir, ainsi qu’au crayon épais bleu et rouge déjà utilisé par JJR pour modifier son manuscrit.</bibl>
+                    <bibl>Tps2 : 11 feuillets tapuscrits (21 x 27) non datés, en état moyen (très froissé en haut de page), correspondant à une mise au propre.</bibl>
+                    <bibl>Tps3 : un ensemble de 38 feuillets tapuscrits recto (21 x 27), sans date, correspondant à une mise au propre.</bibl>
+                    <bibl>Tps4 : un feuillet tapuscrit isolé (16 x 20), mis en forme pour l’édition, intitulé « Une autre ».</bibl>
+                    <bibl>Rv1 : la revue <hi rend="italic">Ny Fandrosoam-Baovao</hi> publie les poèmes « Mpitsoka sodina » (12/8/31) « Dihy » (16/9/31) et « Terak’andro » (6/1/32). Ces versions constituent le texte de référence utilisé pour l’établissement du texte malgache de ces trois poèmes.</bibl> 
+                    <bibl>Rv2 :  <hi rend="italic">Le Journal des Poètes</hi> (2ème année, n° 1, Bruxelles, 9 janvier 1932).</bibl>
+                    <bibl>Rv3 :  <hi rend="italic">Les Cahiers du Sud</hi> (n° 137, Marseille, janvier-février 1932, pp. 1-6).</bibl>
+                </listBibl>   
             </sourceDesc>   
         </fileDesc>   
         <encodingDesc>      
-            <projectDesc default="false">         
-                <p part="N">Cette édition reprend le travail éditorial effectué en 2008-2012 par une équipe de recherche franco-malgache placée sous la direction scientifique du prof. Serge Meitinger, pour le compte de CNRS Éditions. Le présent travail a été financé par l’EUR Translitterae et soutenu par les laboratoires CNRS LATTICE et ITEM. Son objectif principal est de fournir des poèmes une édition en langage informatique pérenne, qui se signale également par une attention particulière portée aux différentes phases de l’écriture, depuis le premier manuscrit jusqu’au texte édité.</p>
-                <p part="N">Les notes génétiques signalent toutes les modifications du texte (mots, phrases, paragraphes ou passages supprimés, remplacés, ajoutés..., ainsi que les signes diacritiques, traits de liaison ou de gestion) figurant sur les versions antérieures à la version définitive. Ces notes génétiques sont appelées dans le texte par un appel de note en a, b, c. L’appel de note est placé après le passage concerné (en incluant la ponctuation éventuelle, au cas où elle diffère), sauf lorsqu’il s’agit d’un mot ou d’un passage supprimé, qui est alors indiqué par un appel de note placé avant le mot ou le passage qu’il précédait.</p>
-                <p part="N">Une seconde série de notes, de type explicatif, est appelée par des chiffres romains (1,2, 3…) et contient des commentaires sur la genèse des poèmes ainsi que, le cas échéant, de brefs développements ayant trait au contexte d’écriture.</p>
+            <projectDesc>   
+                <p>Cette édition reprend le travail éditorial effectué en 2008-2012 par une équipe de recherche franco-malgache placée sous la direction scientifique du prof. Serge Meitinger, pour le compte de CNRS Éditions. Le présent travail a été financé par l’EUR Translitterae et soutenu par les laboratoires CNRS LATTICE et ITEM. Son objectif principal est de fournir des poèmes une édition en langage informatique pérenne, qui se signale également par une attention particulière portée aux différentes phases de l’écriture, depuis le premier manuscrit jusqu’au texte édité.</p>                        
+                <p>Les notes génétiques signalent toutes les modifications du texte (mots, phrases, paragraphes ou passages supprimés, remplacés, ajoutés..., ainsi que les signes diacritiques, traits de liaison ou de gestion) figurant sur les versions antérieures à la version définitive. Ces notes génétiques sont appelées dans le texte par un appel de note en a, b, c. L’appel de note est placé après le passage concerné (en incluant la ponctuation éventuelle, au cas où elle diffère), sauf lorsqu’il s’agit d’un mot ou d’un passage supprimé, qui est alors indiqué par un appel de note placé avant le mot ou le passage qu’il précédait.</p>
+                <p>Une seconde série de notes, de type explicatif, est appelée par des chiffres romains (1,2, 3…) et contient des commentaires sur la genèse des poèmes ainsi que, le cas échéant, de brefs développements ayant trait au contexte d’écriture.</p>
             </projectDesc>      
-            <editorialDecl default="false">         
-                <normalization default="false" method="silent">
-                    <p part="N"> Nous avons choisi de conserver l’orthographe de l’époque, qui est dans certains cas légèrement différente de l’orthographe actuelle.</p>
+            <editorialDecl>         
+                <normalization>
+                    <p> Nous avons choisi de conserver l’orthographe de l’époque, qui est dans certains cas légèrement différente de l’orthographe actuelle.</p>
                 </normalization>         
-                <hyphenation eol="all" default="false">
-                    <p part="N">Les coupures de lignes sont notées avec l'élément lb.</p>
+                <hyphenation eol="all">
+                    <p>Les coupures de lignes sont notées avec l'élément lb.</p>
                 </hyphenation>        
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
+            <creation>
+                <date when="1931">1931 à 1932</date>
+            </creation>
             <langUsage>
                 <language ident="fr">Français</language>
                 <language ident="mg">Malagasy</language>
@@ -128,7 +142,7 @@
     <text>
         <body>
             <div type="title-page" n="0" xml:id="ps-0">
-                <div type="mg" xml:lang="mg" facs="efedeaed58085150f19075b317d5ce70.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/efedeaed58085150f19075b317d5ce70.jpg">
                     <p>
                         <del>Saiky-</del>
                         <lb/>
@@ -139,7 +153,7 @@
                         Presque-<del>nofy</del> songes
                     </p>
                 </div>
-                <div type="fr" xml:lang="fr" facs="efedeaed58085150f19075b317d5ce70.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/efedeaed58085150f19075b317d5ce70.jpg">
                     <head>SARI-NOFY<anchor n="1" xml:id="note-ps-1"/>
                     </head>
                     <head>PRESQUE-SONGES</head>
@@ -169,7 +183,7 @@
                 </div>
             </div>
             <div type="poem" n="1" xml:id="ps-1">
-                <div type="mg" xml:lang="mg" facs="ecfd1640e7b4aed62fc068cb48c0cc03.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/ecfd1640e7b4aed62fc068cb48c0cc03.jpg">
                     <head>Mamaky Teny<anchor n="3" xml:id="note-ps-3"/>
                     </head>
                     <lg>
@@ -199,7 +213,7 @@
                         </l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="ecfd1640e7b4aed62fc068cb48c0cc03.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/ecfd1640e7b4aed62fc068cb48c0cc03.jpg">
                     <head>Lire</head>
                     <lg>
                         <l>Ne faites pas de bruit, ne parlez pas :</l>
@@ -266,7 +280,7 @@
                 </div>
             </div>
             <div type="poem" n="2" xml:id="ps-2">
-                <div type="mg" xml:lang="mg" facs="b1cdfb37df9e0d627ea9b53ebc5c5ccb.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/b1cdfb37df9e0d627ea9b53ebc5c5ccb.jpg">
                     <head>Ny Tononkira<anchor n="a" xml:id="note-2mg-a"/>
                         <anchor n="6" xml:id="note-ps-6"/>
                     </head>
@@ -316,7 +330,7 @@
                         <l>toy ny vahy izay mamony eny ambony fasana<anchor n="8" xml:id="note-ps-8"/>.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="b1cdfb37df9e0d627ea9b53ebc5c5ccb.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/b1cdfb37df9e0d627ea9b53ebc5c5ccb.jpg">
                     <head>Le Poëme</head>
                     <lg>
                         <l>Paroles pour chant, dis-tu, paroles pour chant,</l>
@@ -430,7 +444,7 @@
             </div>
             <div type="poem" n="3" xml:id="ps-3">
                 
-                <div type="mg" xml:lang="mg" facs="88375c4efe22f9aa5c6d5b96db884c4a.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/88375c4efe22f9aa5c6d5b96db884c4a.jpg">
                     <head>Asara<anchor n="13" xml:id="note-ps-13"/>
                     </head>
                     <lg>
@@ -467,7 +481,7 @@
                         <l>salohy amam-boa novonokatr’Asara.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="88375c4efe22f9aa5c6d5b96db884c4a.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/88375c4efe22f9aa5c6d5b96db884c4a.jpg">
                     <head>Été</head>
                     <lg>
                         <l rend="indent">Sème, sème l’été<anchor n="a" xml:id="note-3fr-a"/>,</l>
@@ -603,7 +617,7 @@
                 </div>
             </div>
             <div type="poem" n="4" xml:id="ps-4">
-                <div type="mg" xml:lang="mg" facs="ecfd1640e7b4aed62fc068cb48c0cc03.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/ecfd1640e7b4aed62fc068cb48c0cc03.jpg">
                     <head>Vorona Telo<anchor n="20" xml:id="note-ps-20"/>
                     </head>
                     <lg>
@@ -634,7 +648,7 @@
                         <l>ary tsy miverina raha tsy efa tonga mandrakizay.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="ecfd1640e7b4aed62fc068cb48c0cc03.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/ecfd1640e7b4aed62fc068cb48c0cc03.jpg">
                     <head>Les Trois Oiseaux<anchor n="a" xml:id="note-4fr-a"/>
                     </head>
                     <lg>
@@ -701,7 +715,7 @@
                 </div>
             </div>
             <div type="poem" n="5" xml:id="ps-5">
-                <div type="mg" xml:lang="mg" facs="67783cde73e5ab92ec9d5b9831782d50.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/67783cde73e5ab92ec9d5b9831782d50.jpg">
                     <head>Ilay tena antitra<anchor n="23" xml:id="note-ps-23"/>
                     </head>
                     <lg>
@@ -748,7 +762,7 @@
                         <l>izay nitara-tena tao amiko.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="67783cde73e5ab92ec9d5b9831782d50.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/67783cde73e5ab92ec9d5b9831782d50.jpg">
                     <head>Le Bien Vieux</head>
                     <lg>
                         <l>J’avais bien vu des vieux et des vieux<anchor n="a" xml:id="note-5fr-a"/> <anchor n="25" xml:id="note-ps-25"/>
@@ -852,7 +866,7 @@
                 </div>
             </div>
             <div type="poem" n="6" xml:id="ps-6">
-                <div type="mg" xml:lang="mg" facs="4977a4515b664311d70df2bce6dd2ca4.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/4977a4515b664311d70df2bce6dd2ca4.jpg">
                     <head>Tazon’ny nosy<anchor n="28" xml:id="note-ps-28"/>
                     </head>
                     <lg>
@@ -897,7 +911,7 @@
                             <anchor n="30" xml:id="note-ps-30"/>ny nosy !</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="4977a4515b664311d70df2bce6dd2ca4.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/4977a4515b664311d70df2bce6dd2ca4.jpg">
                     <head>Fièvre<anchor n="a" xml:id="note-6fr-a"/> des Iles</head>
                     <lg>
                         <l>Le soleil s’est-il brisé<anchor n="b" xml:id="note-6fr-b"/> sur ta tête</l>
@@ -990,7 +1004,7 @@
                 </div>
             </div>
             <div type="poem" n="7" xml:id="ps-7">
-                <div type="mg" xml:lang="mg" facs="e22eec50845ff79ccb7599f56ac16b6b.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/e22eec50845ff79ccb7599f56ac16b6b.jpg">
                     <head>Voankazo<anchor n="34" xml:id="note-ps-34"/>
                     </head>
                     <lg>
@@ -1015,7 +1029,7 @@
                         <l>ary hiotazan’ny any aoriana vakivaki-masoandro.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="e22eec50845ff79ccb7599f56ac16b6b.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/e22eec50845ff79ccb7599f56ac16b6b.jpg">
                     <head>Fruits</head>
                     <lg>
                         <l>Tu peux<anchor n="a" xml:id="note-7fr-a"/> choisir</l>
@@ -1074,7 +1088,7 @@
                 </div>
             </div>
             <div type="poem" n="8" xml:id="ps-8">
-                <div type="mg" xml:lang="mg" facs="a6c8fea4d40f5c769210f0a4180eadd4.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/a6c8fea4d40f5c769210f0a4180eadd4.jpg">
                     <head>Sarisarim-bolana<anchor n="36" xml:id="note-ps-36"/>
                     </head>
                     <lg>
@@ -1131,7 +1145,7 @@
                         <l>izay hahatratra anay eo amoron’ny torimaso.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="a6c8fea4d40f5c769210f0a4180eadd4.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/a6c8fea4d40f5c769210f0a4180eadd4.jpg">
                     <head>Images Lunaires<anchor n="a" xml:id="note-8fr-a"/>
                     </head>
                     <lg>
@@ -1223,7 +1237,7 @@
                 </div>
             </div>
             <div type="poem" n="9" xml:id="ps-9">
-                <div type="mg" xml:lang="mg" facs="e22eec50845ff79ccb7599f56ac16b6b.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/e22eec50845ff79ccb7599f56ac16b6b.jpg">
                     <head>Ny Omby<anchor n="a" xml:id="note-9mg-a"/> fotsy<anchor n="43" xml:id="note-ps-43"/>
                     </head>
                     <lg>
@@ -1251,7 +1265,7 @@
                         <l>sy ny<anchor n="d" xml:id="note-9mg-d"/> omby dia izay matory any an-kaintsika izy.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="e22eec50845ff79ccb7599f56ac16b6b.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/e22eec50845ff79ccb7599f56ac16b6b.jpg">
                     <head>Le Bœuf-Blanc<anchor n="a" xml:id="note-9fr-a"/>
                     </head>
                     <lg>
@@ -1330,7 +1344,7 @@
                 </div>
             </div>
             <div type="poem" n="10" xml:id="ps-10">
-                <div type="mg" xml:lang="mg" facs="5728599eaa6b0b49bb7e9f08b94323ef.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/5728599eaa6b0b49bb7e9f08b94323ef.jpg">
                     <head>Terak’andro<anchor n="49" xml:id="note-ps-49"/>
                     </head>
                     <lg>
@@ -1352,7 +1366,7 @@
                         <l>ny vorona nofinandriny<anchor n="f" xml:id="note-10mg-f"/>.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="5728599eaa6b0b49bb7e9f08b94323ef.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/5728599eaa6b0b49bb7e9f08b94323ef.jpg">
                     <head>Naissance du Jour</head>
                     <lg>
                         <l>Avez-vous déjà vu<anchor n="a" xml:id="note-10fr-a"/> l’aube aller en maraude</l>
@@ -1406,7 +1420,7 @@
                 </div>
             </div>
             <div type="poem" n="11" xml:id="ps-11">
-                <div type="mg" xml:lang="mg" facs="27870336f8bb466865248300b5720726.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/27870336f8bb466865248300b5720726.jpg">
                     <head>Terak’andro hafa<anchor n="a" xml:id="note-11mg-a"/>
                         <anchor n="51" xml:id="note-ps-51"/>
                     </head>
@@ -1429,7 +1443,7 @@
                         </l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="27870336f8bb466865248300b5720726.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/27870336f8bb466865248300b5720726.jpg">
                     <head>Autre<anchor n="a" xml:id="note-11fr-a"/> Naissance du Jour<anchor n="b" xml:id="note-11fr-b"/>
                     </head>
                     <lg>
@@ -1488,7 +1502,7 @@
                 </div>
             </div>
             <div type="poem" n="12" xml:id="ps-12">
-                <div type="mg" xml:lang="mg" facs="a1e4353bf1260ae0e54a8add10bf5921.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/a1e4353bf1260ae0e54a8add10bf5921.jpg">
                     <head>Hafa Koa<anchor n="a" xml:id="note-12mg-a"/>
                         <anchor n="55" xml:id="note-ps-55"/>
                     </head>
@@ -1512,7 +1526,7 @@
                         <l>no voatsangan’ilay mahay zavatra<anchor n="59" xml:id="note-ps-59"/> eo ambony fasany tsy hita.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="a1e4353bf1260ae0e54a8add10bf5921.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/a1e4353bf1260ae0e54a8add10bf5921.jpg">
                     <head>Une Autre<anchor n="a" xml:id="note-12fr-a"/>
                     </head>
                     <lg>
@@ -1557,7 +1571,7 @@
                 </div>
             </div>
             <div type="poem" n="13" xml:id="ps-13">
-                <div type="mg" xml:lang="mg" facs="e896170b98736f559a69b10a2feb0f8c.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/e896170b98736f559a69b10a2feb0f8c.jpg">
                     <head>Mpitsoka sodina<anchor n="60" xml:id="note-ps-60"/>
                     </head>
                     <lg>
@@ -1618,7 +1632,7 @@
                         <l>Ao anaty alahelonareo hiraina<anchor n="w" xml:id="note-13mg-w"/>.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="e896170b98736f559a69b10a2feb0f8c.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/e896170b98736f559a69b10a2feb0f8c.jpg">
                     <head>Flûtistes</head>
                     <lg>
                         <l>Ta flûte,</l>
@@ -1742,7 +1756,7 @@
                 </div>
             </div>
             <div type="poem" n="14" xml:id="ps-14">
-                <div type="mg" xml:lang="mg" facs="f4426ef344e78e21f6e2fbdc3eac1760.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/f4426ef344e78e21f6e2fbdc3eac1760.jpg">
                     <head>Refin’ny andro<anchor n="66" xml:id="note-ps-66"/>
                     </head>
                     <lg>
@@ -1788,7 +1802,7 @@
                         <l>na vao avy naharesy azy.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="f4426ef344e78e21f6e2fbdc3eac1760.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/f4426ef344e78e21f6e2fbdc3eac1760.jpg">
                     <head>Mesures<anchor n="a" xml:id="note-14fr-a"/> du Temps</head>
                     <opener>
                         <epigraph>
@@ -1914,7 +1928,7 @@
                 </div>
             </div>
             <div type="poem" n="15" xml:id="ps-15">
-                <div type="mg" xml:lang="mg" facs="27870336f8bb466865248300b5720726.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/27870336f8bb466865248300b5720726.jpg">
                     <head>Raiketra<anchor n="69" xml:id="note-ps-69"/>
                     </head>
                     <lg>
@@ -1970,7 +1984,7 @@
                         </l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="27870336f8bb466865248300b5720726.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/27870336f8bb466865248300b5720726.jpg">
                     <head>Cactus</head>
                     <lg>
                         <l>Cette multitude de mains fondues</l>
@@ -2086,7 +2100,7 @@
                 </div>
             </div>
             <div type="poem" n="16" xml:id="ps-16">
-                <div type="mg" xml:lang="mg" facs="831795516c8de0dbbf31ea983389af47.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/831795516c8de0dbbf31ea983389af47.jpg">
                     <head>Indray mipimaso<anchor n="73" xml:id="note-ps-73"/>
                     </head>
                     <lg>
@@ -2137,7 +2151,7 @@
                         <l>izay zanaky<anchor n="i" xml:id="note-16mg-i"/> fahanteran’ny tany mifandimby.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="831795516c8de0dbbf31ea983389af47.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/831795516c8de0dbbf31ea983389af47.jpg">
                     <head>Un Clin d’Œil</head>
                     <lg>
                         <l>Les yeux s’ouvrent, les yeux se ferment,</l>
@@ -2257,7 +2271,7 @@
                 </div>
             </div>
             <div type="poem" n="17" xml:id="ps-17">
-                <div type="mg" xml:lang="mg" facs="79d12aee766c3d02a6dca254215f07a1.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/79d12aee766c3d02a6dca254215f07a1.jpg">
                     <head>Ala avo<anchor n="79" xml:id="note-ps-79"/>
                     </head>
                     <lg>
@@ -2343,7 +2357,7 @@
                         <l>mohara mangina eo ampovoan’ny bokiko.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="79d12aee766c3d02a6dca254215f07a1.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/79d12aee766c3d02a6dca254215f07a1.jpg">
                     <head>Haute Futaie</head>
                     <lg>
                         <l>Je ne viens pas pour<anchor n="a" xml:id="note-17fr-a"/> saccager les fruits</l>
@@ -2514,7 +2528,7 @@
                 </div>
             </div>
             <div type="poem" n="18" xml:id="ps-18">
-                <div type="mg" xml:lang="mg" facs="183ab482712a4e6c2fc8605946f29335.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/183ab482712a4e6c2fc8605946f29335.jpg">
                     <head>Gazety<anchor n="a" xml:id="note-18mg-a"/>
                         <anchor n="85" xml:id="note-ps-85"/>
                     </head>
@@ -2597,7 +2611,7 @@
                         <l>izay tonga eto amiko avy eran’ny tany.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="183ab482712a4e6c2fc8605946f29335.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/183ab482712a4e6c2fc8605946f29335.jpg">
                     <head>Imprimés<anchor n="a" xml:id="note-18fr-a"/>
                     </head>
                     <lg>
@@ -2762,7 +2776,7 @@
                 </div>
             </div>
             <div type="poem" n="19" xml:id="ps-19">
-                <div type="mg" xml:lang="mg" facs="c3421c82b156407e0d7ef916ccfe45be.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/c3421c82b156407e0d7ef916ccfe45be.jpg">
                     <head>Ombalahy<anchor n="93" xml:id="note-ps-93"/>
                     </head>
                     <lg>
@@ -2812,7 +2826,7 @@
                         <l>ka toa hoatra ny trafon’ny tany.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="c3421c82b156407e0d7ef916ccfe45be.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/c3421c82b156407e0d7ef916ccfe45be.jpg">
                     <head>Zébu<anchor n="a" xml:id="note-19fr-a"/>
                     </head>
                     <lg>
@@ -2901,7 +2915,7 @@
                 </div>
             </div>
             <div type="poem" n="20" xml:id="ps-20">
-                <div type="mg" xml:lang="mg" facs="00be72cec1ad8572267db75d120180d1.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/00be72cec1ad8572267db75d120180d1.jpg">
                     <head>Sakodo ho an’ny zanako izao<anchor n="97" xml:id="note-ps-97"/>
                     </head>
                     <lg>
@@ -2933,7 +2947,7 @@
                         <l>solofo misahondra voahangy<anchor n="102" xml:id="note-ps-102"/>.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="00be72cec1ad8572267db75d120180d1.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/00be72cec1ad8572267db75d120180d1.jpg">
                     <head>Ronde pour mes enfants présents</head>
                     <lg>
                         <l>– Que nous rapportera-t-il, notre père,</l>
@@ -2996,7 +3010,7 @@
                 </div>
             </div>
             <div type="poem" n="21" xml:id="ps-21">
-                <div type="mg" xml:lang="mg" facs="42eb5398971bd34c533843bf17fcdb1e.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/42eb5398971bd34c533843bf17fcdb1e.jpg">
                     <head>Harivan-dririnina<anchor n="103" xml:id="note-ps-103"/>
                     </head>
                     <lg>
@@ -3047,7 +3061,7 @@
                         <l>izay avy<anchor n="a" xml:id="note-21mg-a"/> mitrena ao am-baravarako.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="42eb5398971bd34c533843bf17fcdb1e.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/42eb5398971bd34c533843bf17fcdb1e.jpg">
                     <head>Soirs d’Hiver</head>
                     <lg>
                         <l>Je préfère encore les soirs</l>
@@ -3127,7 +3141,7 @@
                 </div>
             </div>
             <div type="poem" n="22" xml:id="ps-22">
-                <div type="mg" xml:lang="mg" facs="8253773b3ebdd20fe65957c6d84175ee.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/8253773b3ebdd20fe65957c6d84175ee.jpg">
                     <head>Ny rivotra<anchor n="107" xml:id="note-ps-107"/>
                     </head>
                     <lg>
@@ -3218,7 +3232,7 @@
                         <l>– Avy any an-dranomasina, hoy aho, ny rivotra…</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="8253773b3ebdd20fe65957c6d84175ee.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/8253773b3ebdd20fe65957c6d84175ee.jpg">
                     <head>Le Vent</head>
                     <lg>
                         <l>Force la grotte où marche le vent,</l>
@@ -3384,7 +3398,7 @@
                 </div>
             </div>
             <div type="poem" n="23" xml:id="ps-23">
-                <div type="mg" xml:lang="mg" facs="d50ea98c5ad66e7d882ad5e3ef03c7c3.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/d50ea98c5ad66e7d882ad5e3ef03c7c3.jpg">
                     <head>Dihy<anchor n="112" xml:id="note-ps-112"/>
                     </head>
                     <lg>
@@ -3451,7 +3465,7 @@
                         <l>Sy ny andro maneno akoho !</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="d50ea98c5ad66e7d882ad5e3ef03c7c3.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/d50ea98c5ad66e7d882ad5e3ef03c7c3.jpg">
                     <head>Danses</head>
                     <lg>
                         <l>Chuchotement de trois <hi rend="italic">valiha</hi>
@@ -3549,7 +3563,7 @@
                 </div>
             </div>
             <div type="poem" n="24" xml:id="ps-24">
-                <div type="mg" xml:lang="mg" facs="2a6d738a069c532e7c2776b1361bb872.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/2a6d738a069c532e7c2776b1361bb872.jpg">
                     <head>Valiha<anchor n="114" xml:id="note-ps-114"/>
                     </head>
                     <lg>
@@ -3593,7 +3607,7 @@
                         <l>eo an-tànan’ny manina.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="2a6d738a069c532e7c2776b1361bb872.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/2a6d738a069c532e7c2776b1361bb872.jpg">
                     <head>Valiha</head>
                     <lg>
                         <l>Blocs d’émeraude pointus</l>
@@ -3653,7 +3667,7 @@
                 </div>
             </div>
             <div type="poem" n="25" xml:id="ps-25">
-                <div type="mg" xml:lang="mg" facs="7f7571f179a0098693f0bc422e08618a.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/7f7571f179a0098693f0bc422e08618a.jpg">
                     <head>Lamba<anchor n="116" xml:id="note-ps-116"/>
                     </head>
                     <lg>
@@ -3703,7 +3717,7 @@
                             <anchor n="c" xml:id="note-25mg-c"/>hifantsitsiran’ny ezakan’ny ahitra.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="7f7571f179a0098693f0bc422e08618a.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/7f7571f179a0098693f0bc422e08618a.jpg">
                     <head>Lambe</head>
                     <lg>
                         <l>Peu d’arbres fleurissent sans feuillage<anchor n="a" xml:id="note-25fr-a"/>,</l>
@@ -3785,7 +3799,7 @@
                 </div>
             </div>
             <div type="poem" n="26" xml:id="ps-26">
-                <div type="mg" xml:lang="mg" facs="de9d5c0c9ed7aff39221085ccdc0d71c.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/de9d5c0c9ed7aff39221085ccdc0d71c.jpg">
                     <head>Fankasitrahana an’i Paul Gauguin<anchor n="119" xml:id="note-ps-119"/>
                     </head>
                     <lg>
@@ -3842,7 +3856,7 @@
                         <l>eo am-piandrasana ny fahagaganao.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="de9d5c0c9ed7aff39221085ccdc0d71c.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/de9d5c0c9ed7aff39221085ccdc0d71c.jpg">
                     <head>Reconnaissance à Paul Gauguin</head>
                     <opener>
                         <salute>Pour Urbain-Faurec<anchor n="a" xml:id="note-26fr-a"/></salute>
@@ -3957,7 +3971,7 @@
                 </div>
             </div>
             <div type="poem" n="27" xml:id="ps-27">
-                <div type="mg" xml:lang="mg" facs="e1e5972e2bb29e01d744fe3e0c6cd677.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/e1e5972e2bb29e01d744fe3e0c6cd677.jpg">
                     <head>Fasana ho an’i E. Razanadrasoa<anchor n="122" xml:id="note-ps-122"/>
                     </head>
                     <lg>
@@ -4010,7 +4024,7 @@
                         <l>ary tsy hihira intsony afa-tsy amin’ny molotray.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="e1e5972e2bb29e01d744fe3e0c6cd677.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/e1e5972e2bb29e01d744fe3e0c6cd677.jpg">
                     <head>THRÈNES</head>
                     <head>I. Pour Esther Razanadrasoa</head>
                     <lg>
@@ -4124,7 +4138,7 @@
                 </div>
             </div>
             <div type="poem" n="28" xml:id="ps-28">
-                <div type="mg" xml:lang="mg" facs="0a8dc849e1c90f96f82c7c061f6570f1.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/0a8dc849e1c90f96f82c7c061f6570f1.jpg">
                     <head>Vatom-pasana ho an-tovovavy<anchor n="a" xml:id="note-28mg-a"/> maty tany amoron-dranomasina avaratra<anchor n="125" xml:id="note-ps-125"/>
                     </head>
                     <lg>
@@ -4194,7 +4208,7 @@
                         <l>ity zaza vao<anchor n="f" xml:id="note-28mg-f"/> teraka<anchor n="128" xml:id="note-ps-128"/> tany amoron’ny ranomasina avaratra ?</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="0a8dc849e1c90f96f82c7c061f6570f1.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/0a8dc849e1c90f96f82c7c061f6570f1.jpg">
                     <head>II. Pour une jeune femme<anchor n="a" xml:id="note-28fr-a"/> morte au bord d’une mer septentrionale</head>
                     <lg>
                         <l>Il est une lune qui vient de chavirer</l>
@@ -4335,7 +4349,7 @@
                 </div>
             </div>
             <div type="poem" n="29" xml:id="ps-29">
-                <div type="mg" xml:lang="mg" facs="50b07469cb35c3fadeed8c2c6978b14d.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/50b07469cb35c3fadeed8c2c6978b14d.jpg">
                     <head>Ho an-jazavavy marary tratra<anchor n="132" xml:id="note-ps-132"/>
                     </head>
                     <lg>
@@ -4405,7 +4419,7 @@
                         <l>lavitry ny lavenonao efa mihahaka<anchor n="l" xml:id="note-29mg-l"/>.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="50b07469cb35c3fadeed8c2c6978b14d.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/50b07469cb35c3fadeed8c2c6978b14d.jpg">
                     <head>III. Pour une petite phtisique</head>
                     <lg>
                         <l>Une poignée de cendres</l>
@@ -4533,7 +4547,7 @@
                 </div>
             </div>
             <div type="poem" n="30" xml:id="ps-30">
-                <div type="mg" xml:lang="mg" facs="5728599eaa6b0b49bb7e9f08b94323ef.jpg">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/5728599eaa6b0b49bb7e9f08b94323ef.jpg">
                     <head>Ny asanao<anchor n="a" xml:id="note-30mg-a"/>
                         <anchor n="134" xml:id="note-ps-134"/>
                     </head>
@@ -4575,7 +4589,7 @@
                         <l>toy ny nofy.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" facs="5728599eaa6b0b49bb7e9f08b94323ef.jpg">
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/5728599eaa6b0b49bb7e9f08b94323ef.jpg">
                     <head>Ton Œuvre<anchor n="a" xml:id="note-30fr-a"/>
                     </head>
                     <lg>

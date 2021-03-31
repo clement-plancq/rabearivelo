@@ -1,6 +1,5 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-<?teipublisher odd="jjr.odd" template="jjr.html"?>
-      <teiHeader>  
+    <teiHeader>  
         <fileDesc>   
             <titleStmt>         
                 <title type="main">Nadika tamin'ny alina  / Traduit de la nuit</title>         
@@ -24,15 +23,15 @@
                 <availability status="restricted" default="false">
                     <licence target="http://creativecommons.org/licenses/CC BY-SA 4.0/">Distributed under a Creative Commons License - Attribution-ShareAlike 4.0 International </licence>
                 </availability>             
-                <date instant="false">2017</date>  
+                <date>2017</date>  
                 <distributor>Huma-Num, sur le site <ref target="https://rabearivelo.huma-num.fr/traduit-de-la-nuit.xml">https://rabearivelo.huma-num.fr/</ref>
                 </distributor>
             </publicationStmt>      
             <notesStmt>         
-                <note anchored="true">Nous nous fondons sur l’édition originale de 1935. Mais Rabearivelo n’a publié que le texte français du recueil. Ainsi, l’édition de référence ne couvre que la moitié du corpus. Du texte malgache nous ne possédons ni édition originale ni tapuscrit. Nous suivons donc la leçon du manuscrit. Ce choix n’est pas sans conséquences ; il génère un déséquilibre entre les deux versions du texte, puisque Rabearivelo a procédé à des modifications lors du passage au tapuscrit, puis à l’édition originale. Le texte malgache n’est donc pas présenté ici dans le même état d’achèvement. Nous choisissons de le laisser tel, y compris dans la ponctuation et la mise en page, pour ne pas interpréter à tort l’intention du poète. Seule exception : nous avons ajouté des points en fin de strophe.</note>
+                <note>Nous nous fondons sur l’édition originale de 1935. Mais Rabearivelo n’a publié que le texte français du recueil. Ainsi, l’édition de référence ne couvre que la moitié du corpus. Du texte malgache nous ne possédons ni édition originale ni tapuscrit. Nous suivons donc la leçon du manuscrit. Ce choix n’est pas sans conséquences ; il génère un déséquilibre entre les deux versions du texte, puisque Rabearivelo a procédé à des modifications lors du passage au tapuscrit, puis à l’édition originale. Le texte malgache n’est donc pas présenté ici dans le même état d’achèvement. Nous choisissons de le laisser tel, y compris dans la ponctuation et la mise en page, pour ne pas interpréter à tort l’intention du poète. Seule exception : nous avons ajouté des points en fin de strophe.</note>
             </notesStmt>      
-            <sourceDesc default="false">
-                <biblStruct xml:lang="fr" default="false" status="draft">            
+            <sourceDesc>               
+                <biblStruct>            
                     <monogr>               
                         <author>Jean-Joseph Rabearivelo</author>               
                         <title>TRADUIT DE LA NUIT<lb/>
@@ -42,52 +41,62 @@
                             <pubPlace>TUNIS</pubPlace>                  
                             <publisher>ÉDITIONS DE MIRAGES</publisher>                  
                             <date>1935</date>                  
-                            <note anchored="true">24X33</note>                  
-                            <note anchored="true">Non paginé (78 p.).</note>               
+                            <note>24X33</note>                  
+                            <note>Non paginé (78 p.).</note>               
                         </imprint>            
                     </monogr>        
-                </biblStruct>      
+                </biblStruct>   
+                <listBibl>
+                    <head>Les archives familiales contiennent deux avant-textes manuscrits du recueil : un brouillon rédactionnel figurant à la suite de <hi rend="italic">Presque-Songes</hi> sur le même cahier d’écolier et qui en constitue la prolongation immédiate, et un manuscrit mis au propre, très incomplet. Certains textes du recueil paraissent d’abord en revue.</head>                     
+                    <bibl>Ms1 : cahier d’écolier 50 pages, dont les 21 premiers feuillets sont écrits recto verso. Parmi ceux-là, les huit derniers, datés du 29/9/31 au 22/5/32, concernent <hi rend="italic">Traduit de la nuit</hi>.</bibl>
+                    <bibl>Ms2 : deux feuillets manuscrits écrits recto verso (24 x 18,5)</bibl>
+                    <bibl>Rv1 : <hi rend="italic">Cahiers du Sud</hi>, n° 149, Marseille, mars 1933, pp. 171-173.</bibl>
+                    <bibl>Rv2 : <hi rend="italic">Le Journal des Poètes</hi>, 2ème année, n° 2, Bruxelles, 30 avril 1932.</bibl>
+                </listBibl>
             </sourceDesc>   
         </fileDesc>   
         <encodingDesc>      
-            <projectDesc default="false">    
-                <p part="N">Cette édition reprend le travail éditorial effectué en 2008-2012 par une équipe de recherche franco-malgache placée sous la direction scientifique du prof. Serge Meitinger, pour le compte de CNRS Éditions. Le présent travail a été financé par l’EUR Translitterae et soutenu par les laboratoires CNRS LATTICE et ITEM. Son objectif principal est de fournir des poèmes une édition en langage informatique pérenne, qui se signale également par une attention particulière portée aux différentes phases de l’écriture, depuis le premier manuscrit jusqu’au texte édité.</p>                  
-                <p part="N">Les notes génétiques signalent toutes les modifications du texte (mots, phrases, paragraphes ou passages supprimés, remplacés, ajoutés..., ainsi que les signes diacritiques, traits de liaison ou de gestion) figurant sur les versions antérieures à la version définitive. Ces notes génétiques sont appelées dans le texte par un appel de note en a, b, c. L’appel de note est placé après le passage concerné (en incluant la ponctuation éventuelle, au cas où elle diffère), sauf lorsqu’il s’agit d’un mot ou d’un passage supprimé, qui est alors indiqué par un appel de note placé avant le mot ou le passage qu’il précédait.</p>
-                <p part="N">Une seconde série de notes, de type explicatif, est appelée par des chiffres romains (1,2, 3…) et contient des commentaires sur la genèse des poèmes ainsi que, le cas échéant, de brefs développements ayant trait au contexte d’écriture.</p>
+            <projectDesc>    
+                <p>Cette édition reprend le travail éditorial effectué en 2008-2012 par une équipe de recherche franco-malgache placée sous la direction scientifique du prof. Serge Meitinger, pour le compte de CNRS Éditions. Le présent travail a été financé par l’EUR Translitterae et soutenu par les laboratoires CNRS LATTICE et ITEM. Son objectif principal est de fournir des poèmes une édition en langage informatique pérenne, qui se signale également par une attention particulière portée aux différentes phases de l’écriture, depuis le premier manuscrit jusqu’au texte édité.</p>                  
+                <p>Les notes génétiques signalent toutes les modifications du texte (mots, phrases, paragraphes ou passages supprimés, remplacés, ajoutés..., ainsi que les signes diacritiques, traits de liaison ou de gestion) figurant sur les versions antérieures à la version définitive. Ces notes génétiques sont appelées dans le texte par un appel de note en a, b, c. L’appel de note est placé après le passage concerné (en incluant la ponctuation éventuelle, au cas où elle diffère), sauf lorsqu’il s’agit d’un mot ou d’un passage supprimé, qui est alors indiqué par un appel de note placé avant le mot ou le passage qu’il précédait.</p>
+                <p>Une seconde série de notes, de type explicatif, est appelée par des chiffres romains (1,2, 3…) et contient des commentaires sur la genèse des poèmes ainsi que, le cas échéant, de brefs développements ayant trait au contexte d’écriture.</p>
             </projectDesc>      
-            <editorialDecl default="false">         
-                <normalization default="false" method="silent">
-                    <p part="N"> Nous avons choisi de conserver l’orthographe de l’époque, qui est dans certains cas légèrement différente de l’orthographe actuelle.</p>
+            <editorialDecl>         
+                <normalization>
+                    <p > Nous avons choisi de conserver l’orthographe de l’époque, qui est dans certains cas légèrement différente de l’orthographe actuelle.</p>
                 </normalization>         
-                <hyphenation eol="all" default="false">
-                    <p part="N">Les coupures de lignes sont notées avec l'élément lb.</p>
+                <hyphenation eol="all">
+                    <p>Les coupures de lignes sont notées avec l'élément lb.</p>
                 </hyphenation>        
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
-        <langUsage>
-            <language ident="fr">Français</language>
-            <language ident="mg">Malagasy</language>
-        </langUsage>
+            <creation>
+                <date when="1931">1931 à 1932</date>
+            </creation>
+            <langUsage>
+                <language ident="fr">Français</language>
+                <language ident="mg">Malagasy</language>
+            </langUsage>
         </profileDesc>
     </teiHeader>
-   <text>
-      <body>
-      <div type="title-page" n="0" xml:id="tn-0">
-                <div type="mg" xml:lang="mg" facs="2818762a2aebb2989a53ca17704f6c2f.jpg">
+    <text>
+        <body>
+            <div type="title-page" n="0" xml:id="tn-0">
+                <div type="mg" xml:lang="mg" facs="https://eman-archives.org/francophone/files/fullsize/2818762a2aebb2989a53ca17704f6c2f.jpg">
                     <head>NADIKA TAMIN’NY ALINA<anchor n="a" xml:id="note-0mg-a"/>
                     </head>
                     <head>TRADUIT DE LA NUIT<anchor n="b" xml:id="note-0mg-b"/>
                     </head>
                     <p>IN MEMORIAM<lb/>
-                    FAGUS, Marcel ORMOY et Robert-Jules ALLAIN,</p>
+                        FAGUS, Marcel ORMOY et Robert-Jules ALLAIN,</p>
                     <p>interrogateurs désormais<lb/>
-                    d’une nuit qui ne peut se traduire<lb/>
-                    que par l’étonnement et l’angoisse de notre douleur</p>
+                        d’une nuit qui ne peut se traduire<lb/>
+                        que par l’étonnement et l’angoisse de notre douleur</p>
                     <ref>J.-J. R.</ref>
                 </div>
-                <div type="fr" xml:lang="fr" facs="2818762a2aebb2989a53ca17704f6c2f.jpg">
-                <quote>
+                <div type="fr" xml:lang="fr" facs="https://eman-archives.org/francophone/files/fullsize/2818762a2aebb2989a53ca17704f6c2f.jpg">
+                    <quote>
                         <lg>
                             <l>Pour avoir mis le pied</l>
                             <l>Sur le cœur de la nuit</l>
@@ -102,9 +111,9 @@
                 <div type="notes">
                     <note n="1" xml:id="n-tn-1" target="note-tn-1">
                         <p>Le poète fait mention de son hésitation sur le titre dans un témoignage postérieur à la publication, datant des <hi rend="italic">CB</hi> de 1935 :</p>
-                    <quote>J’ai compulsé tout à l’heure ma collection dépareillée des <hi rend="italic">Images de Paris</hi>. J’y ai retrouvé, non sans quelque émotion, deux numéros où se lisaient des poëmes de Henri Dalby ayant pour titre général : <hi rend="italic">Traduit des Fleurs</hi>. Et moi, tout de suite, de me demander si, sans y prendre garde (cédant à la seule force souterraine de la mémoire) ou agissant consciemment dans le temps, je n’avais un peu songé à ce titre…<lb/>
-                    Il est vrai, et je viens de m’en donner le cœur net en rouvrant mon second manuscrit [...] – il est vrai, dis-je, que <hi rend="italic">Traduit de la Nuit</hi> devait d’abord s’appeler <hi rend="italic">Images, la nuit</hi> – et un poëme du livre avait même paru, sous ce titre, pour ainsi dire en pré-original, dans le <hi rend="italic">Journal des Poëtes</hi>… (CB, 15/10/35, tome I, p. 935).</quote>
-                    <p>Le brouillon rédactionnel montre que la formule de Supervielle placée en exergue a été inscrite après le titre, puisqu’elle prend place dans l’espace interlinéaire. JJR lisait avec intérêt les publications de ce poète, qui explore avec délicatesse le mystère du monde, et dont la poésie sensible à une humanité fragile et merveilleuse ne pouvait que séduire le poète malgache. Les indications de dédicace, quant à elles, permettent de mieux comprendre quel était son univers culturel de référence. Fagus, Marcel Ormoy et Robert-Jules Allain sont trois poètes mineurs récemment décédés au moment de la parution du recueil, et qu’il a par ailleurs célébrés pour les deux derniers dans son essai <hi rend="italic">Quelques poètes, enfants d’Orphée</hi> (voir la section « Le critique »).</p>
+                        <quote>J’ai compulsé tout à l’heure ma collection dépareillée des <hi rend="italic">Images de Paris</hi>. J’y ai retrouvé, non sans quelque émotion, deux numéros où se lisaient des poëmes de Henri Dalby ayant pour titre général : <hi rend="italic">Traduit des Fleurs</hi>. Et moi, tout de suite, de me demander si, sans y prendre garde (cédant à la seule force souterraine de la mémoire) ou agissant consciemment dans le temps, je n’avais un peu songé à ce titre…<lb/>
+                            Il est vrai, et je viens de m’en donner le cœur net en rouvrant mon second manuscrit [...] – il est vrai, dis-je, que <hi rend="italic">Traduit de la Nuit</hi> devait d’abord s’appeler <hi rend="italic">Images, la nuit</hi> – et un poëme du livre avait même paru, sous ce titre, pour ainsi dire en pré-original, dans le <hi rend="italic">Journal des Poëtes</hi>… (CB, 15/10/35, tome I, p. 935).</quote>
+                        <p>Le brouillon rédactionnel montre que la formule de Supervielle placée en exergue a été inscrite après le titre, puisqu’elle prend place dans l’espace interlinéaire. JJR lisait avec intérêt les publications de ce poète, qui explore avec délicatesse le mystère du monde, et dont la poésie sensible à une humanité fragile et merveilleuse ne pouvait que séduire le poète malgache. Les indications de dédicace, quant à elles, permettent de mieux comprendre quel était son univers culturel de référence. Fagus, Marcel Ormoy et Robert-Jules Allain sont trois poètes mineurs récemment décédés au moment de la parution du recueil, et qu’il a par ailleurs célébrés pour les deux derniers dans son essai <hi rend="italic">Quelques poètes, enfants d’Orphée</hi> (voir la section « Le critique »).</p>
                     </note>
                     <note n="a" xml:id="n-0mg-a" target="note-0mg-a">Ms1 : <del rend="overstrike">Sarisary, ny alina</del> // Ms2 : TRADUIT de la NUIT / Poëmes transcrits du hova par l’auteur / hors commerce / CHEZ L’AUTEUR / r. Amiral-Pierre – Tananarive.</note>
                     <note n="b" xml:id="n-0mg-b" target="note-0mg-b"> Ms1 : <del rend="overstrike">Images, la nuit</del>
@@ -112,8 +121,8 @@
                     <note n="a" xml:id="n-0fr-a" target="note-0fr-a">Ms2 <hi rend="italic">ne porte pas d’exergue mais des indications de parution</hi> : « <hi rend="underline">Poëmes hova</hi> (Presque-Songes, Huttes au bord de l’eau, Anthologie de la Poésie hova, Transcriptions <del rend="overstrike">de Valéry, de Camo, Hart…</del> », « <del rend="overstrike">Il a été</del> <del rend="overstrike">Il sera tiré de ce recueil</del> Il sera reproduit / de ce recueil privé / 150 exemplaires numé / rotés à la main de 1 à 150. / Le tout, hors commerce. / N ». <hi rend="italic">En bas de page, une note</hi> : « Achever (<hi rend="italic">sic</hi>) de transcrire / et d’autographier / le 25 mai 1933, / et remis le même jour / à Victor Malvoisin / pour être gravé / sur verre N. ». <hi rend="italic">Et sur le f° 2</hi> : DU MÊME AUTEUR / <hi rend="underline">Poëmes français :</hi> / Sylves (1924). / La Coupe de Cendres (1924) / Sylves, 1927. / Volumes, 1928. / À paraı̂tre : Trèfles / Chants pour l’Amitié / Cailloux taillés / Snoboland / Chants d’Iarive / <del rend="overstrike">Vers dorés</del>. En préparation : Vers dorés / Aux muses de France / Galets / Antée. <hi rend="underline">Critique :</hi> Enfants d’Orphée I, 1931 / ———id——— II, III et IV (à paraı̂tre).</note>
                 </div>
             </div>
-      <div type="poem" n="1" xml:id="tn-1">
-                <div type="mg" xml:lang="mg" n="1" facs="e4ce215943f20e6d72a3e3c1f18e5ddf.jpg">
+            <div type="poem" n="1" xml:id="tn-1">
+                <div type="mg" xml:lang="mg" n="1" facs="https://eman-archives.org/francophone/files/fullsize/e4ce215943f20e6d72a3e3c1f18e5ddf.jpg">
                     <head>1<anchor n="2" xml:id="note-tn-2"/>
                     </head>
                     <lg>
@@ -138,7 +147,7 @@
                         <l>be voninahitry ny maraina tonga taona.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="1" facs="e4ce215943f20e6d72a3e3c1f18e5ddf.jpg">
+                <div type="fr" xml:lang="fr" n="1" facs="https://eman-archives.org/francophone/files/fullsize/e4ce215943f20e6d72a3e3c1f18e5ddf.jpg">
                     <head>1</head>
                     <lg>
                         <l rend="indent">Une étoile pourpre</l>
@@ -186,8 +195,8 @@
                     <note n="7" xml:id="n-tn-7" target="note-tn-7">Le participe passé « alefa » signifie <hi rend="italic">ce qu’on lâche, qu’on met en liberté, qu’on affranchit, qu’on envoie, qu’on tire, qu’on lance</hi> [Malz.]. JJR a peut-être été influencé par ce dernier sens du mot quand il écrit dans Ms1 « un cerf-volant lancé par un enfant endormi ». Mais il reprend ensuite son texte et inscrit « lâché », plus conforme au sens général du vers.</note>
                 </div>
             </div>
-        <div type="poem" n="2" xml:id="tn-2">
-                <div type="mg" xml:lang="mg" n="2" facs="e4ce215943f20e6d72a3e3c1f18e5ddf.jpg">
+            <div type="poem" n="2" xml:id="tn-2">
+                <div type="mg" xml:lang="mg" n="2" facs="https://eman-archives.org/francophone/files/fullsize/e4ce215943f20e6d72a3e3c1f18e5ddf.jpg">
                     <head>2<anchor n="8" xml:id="note-tn-8"/>
                     </head>
                     <lg>
@@ -220,7 +229,7 @@
                         <l>nentin’ny voalavo any an-davany izy.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="2" facs="e4ce215943f20e6d72a3e3c1f18e5ddf.jpg">
+                <div type="fr" xml:lang="fr" n="2" facs="https://eman-archives.org/francophone/files/fullsize/e4ce215943f20e6d72a3e3c1f18e5ddf.jpg">
                     <head>2</head>
                     <lg>
                         <l rend="indent">Quel rat invisible,</l>
@@ -262,7 +271,7 @@
                     <note n="d" xml:id="n-2mg-d" target="note-2mg-d">Ms1 : <del rend="overstrike">voavonjy</del>
                     </note>
                     <note n="e" xml:id="n-2mg-e" target="note-2mg-e">Ms1 : <del rend="overstrike">(<hi rend="italic">nl nl)/</hi>
-                        </del>tsy ho</note>
+                    </del>tsy ho</note>
                     <note n="a" xml:id="n-2fr-a" target="note-2fr-a">Ms1 : <del rend="overstrike" type="double">d’au-delà des</del> <hi rend="italic">remplacé par</hi> <del rend="overstrike">de derrière les</del>
                     </note>
                     <note n="b" xml:id="n-2fr-b" target="note-2fr-b">Ms1 : <del rend="overstrike">0,20</del>
@@ -282,8 +291,8 @@
                     <note n="14" xml:id="n-tn-14" target="note-tn-14">À l’inverse du vers 12, c’est en français qu’apparaı̂t une nuance, « dira » étant remplacé par « ajoutera ».</note>
                 </div>
             </div>
-        <div type="poem" n="3" xml:id="tn-3">
-                <div type="mg" xml:lang="mg" n="3" facs="e69d2eb39c4271285234ff09afe9e1cb.jpg">
+            <div type="poem" n="3" xml:id="tn-3">
+                <div type="mg" xml:lang="mg" n="3" facs="https://eman-archives.org/francophone/files/fullsize/e69d2eb39c4271285234ff09afe9e1cb.jpg">
                     <head>3<anchor n="15" xml:id="note-tn-15"/>
                     </head>
                     <lg>
@@ -324,7 +333,7 @@
                         <l>eo amoron’ny onin’ny fahazavana.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="3" facs="e69d2eb39c4271285234ff09afe9e1cb.jpg">
+                <div type="fr" xml:lang="fr" n="3" facs="https://eman-archives.org/francophone/files/fullsize/e69d2eb39c4271285234ff09afe9e1cb.jpg">
                     <head>3</head>
                     <lg>
                         <l rend="indent">La peau de la vache noire est tendue,</l>
@@ -393,8 +402,8 @@
                     <note n="21" xml:id="n-tn-21" target="note-tn-21">Dans un premier temps, la version française reste fidèle à la malgache, puis elle s’en écarte après correction à l’encre noire : « aux bords de » devient « devant » (qui correspond au malgache « alo-han’ny » et non « amoron’ny »). En malgache, le fleuve est déterminé avec l’article défini <hi rend="italic">ny</hi> (« ny ony » contrairement à la version française.</note>
                 </div>
             </div>
-        <div type="poem" n="4" xml:id="tn-4">
-                <div type="mg" xml:lang="mg" n="4" facs="e5620adc56ccda567762436355d7e87d.jpg">
+            <div type="poem" n="4" xml:id="tn-4">
+                <div type="mg" xml:lang="mg" n="4" facs="https://eman-archives.org/francophone/files/fullsize/e5620adc56ccda567762436355d7e87d.jpg">
                     <head>4<anchor n="22" xml:id="note-tn-22"/>
                     </head>
                     <lg>
@@ -413,7 +422,7 @@
                         <l>sy hatonim<anchor n="c" xml:id="note-4mg-c"/>-boro-moana.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="4" facs="e5620adc56ccda567762436355d7e87d.jpg">
+                <div type="fr" xml:lang="fr" n="4" facs="https://eman-archives.org/francophone/files/fullsize/e5620adc56ccda567762436355d7e87d.jpg">
                     <head>4</head>
                     <lg>
                         <l rend="indent">Ce qui se passe sous la terre,</l>
@@ -446,8 +455,8 @@
                     <note n="26" xml:id="n-tn-26" target="note-tn-26">Ce vers montre le processus d’écriture utilisé par JJR. Il semble qu’il ait d’abord écrit la version malgache, « tsy misy faka », puis qu’en commençant la traduction en français (il en a écrit le premier mot, « sans »), il ait décidé de compléter la chute de son poème ; il intègre donc le vers 11 dans le précédent et ajoute l’image des « oiseaux muets » au dernier vers.</note>
                 </div>
             </div>
-        <div type="poem" n="5" xml:id="tn-5">
-                <div type="mg" xml:lang="mg" n="5" facs="e5620adc56ccda567762436355d7e87d.jpg">
+            <div type="poem" n="5" xml:id="tn-5">
+                <div type="mg" xml:lang="mg" n="5" facs="https://eman-archives.org/francophone/files/fullsize/e5620adc56ccda567762436355d7e87d.jpg">
                     <head>5<anchor n="27" xml:id="note-tn-27"/>
                     </head>
                     <lg>
@@ -472,7 +481,7 @@
                         <l>ary tononiko hoe : <hi rend="italic">kintana</hi>.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="5" facs="e5620adc56ccda567762436355d7e87d.jpg">
+                <div type="fr" xml:lang="fr" n="5" facs="https://eman-archives.org/francophone/files/fullsize/e5620adc56ccda567762436355d7e87d.jpg">
                     <head>5</head>
                     <lg>
                         <l rend="indent">Tu dors,<anchor n="a" xml:id="note-5fr-a"/> ma bien-aimée ;</l>
@@ -537,8 +546,8 @@
                     <note n="30" xml:id="n-tn-30" target="note-tn-30">La traduction de « lanitra » (<hi rend="italic">ciel</hi>) par « azur » est une tentation que JJR avait écartée en TN1 (v. 2) et à laquelle il succombera encore, comme en TN 22 (v. 21), où l’expression « eran’ny lanitra » est traduite par « à travers l’azur ». Dans d’autres poèmes, l’auteur traduit « azur » par « hany ».</note>
                 </div>
             </div>
-        <div type="poem" n="6" xml:id="tn-6">
-                <div type="mg" xml:lang="mg" n="6" facs="e5620adc56ccda567762436355d7e87d.jpg">
+            <div type="poem" n="6" xml:id="tn-6">
+                <div type="mg" xml:lang="mg" n="6" facs="https://eman-archives.org/francophone/files/fullsize/e5620adc56ccda567762436355d7e87d.jpg">
                     <head>6<anchor n="31" xml:id="note-tn-31"/>
                     </head>
                     <lg>
@@ -567,7 +576,7 @@
                         <l>izay mivelona amin-johary.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="6" facs="e5620adc56ccda567762436355d7e87d.jpg">
+                <div type="fr" xml:lang="fr" n="6" facs="https://eman-archives.org/francophone/files/fullsize/e5620adc56ccda567762436355d7e87d.jpg">
                     <head>6</head>
                     <lg>
                         <l rend="indent">Un oiseau sans couleur et sans nom</l>
@@ -635,8 +644,8 @@
                     <note n="35" xml:id="n-tn-35" target="note-tn-35">Ce vers a été ajouté après un point, ce qui penche pour une écriture première en français traduite ensuite en malgache. Le verbe « nourrir » a pour répondant malgache « mivelona » (<hi rend="italic">vivre</hi>).</note>
                 </div>
             </div>
-        <div type="poem" n="7" xml:id="tn-7">
-                <div type="mg" xml:lang="mg" n="7" facs="7fb817f5730d5d078feaf4a7d5f9181d.jpg">
+            <div type="poem" n="7" xml:id="tn-7">
+                <div type="mg" xml:lang="mg" n="7" facs="https://eman-archives.org/francophone/files/fullsize/7fb817f5730d5d078feaf4a7d5f9181d.jpg">
                     <head>7<anchor n="36" xml:id="note-tn-36"/>
                     </head>
                     <lg>
@@ -658,7 +667,7 @@
                         <l>ka mandrakotra ny fivezan’<anchor n="40" xml:id="note-tn-40"/> ny lanitra.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="7" facs="7fb817f5730d5d078feaf4a7d5f9181d.jpg">
+                <div type="fr" xml:lang="fr" n="7" facs="https://eman-archives.org/francophone/files/fullsize/7fb817f5730d5d078feaf4a7d5f9181d.jpg">
                     <head>7</head>
                     <lg>
                         <l rend="indent">Reflux de la lumière océane<anchor n="41" xml:id="note-tn-41"/>.</l>
@@ -680,7 +689,7 @@
                 </div>
                 <div type="notes">
                     <note n="a" xml:id="n-7mg-a" target="note-7mg-a">Ms1 : <del rend="overstrike">(<hi rend="italic">nl)/</hi>
-                        </del>Nisy</note>
+                    </del>Nisy</note>
                     <note n="b" xml:id="n-7mg-b" target="note-7mg-b">
                         <hi rend="italic">Suivi de</hi> <del rend="overstrike">izy</del> <hi rend="italic">dans</hi> Ms1.</note>
                     <note n="a" xml:id="n-7fr-a" target="note-7fr-a">Ms1 : <del rend="overstrike">ont</del> noircissent <hi rend="italic">[</hi>ssent <hi rend="italic">ajouté après suppression de</hi> ont<hi rend="italic">]</hi>
@@ -701,8 +710,8 @@
                     <note n="42" xml:id="n-tn-42" target="note-tn-42">La version française de ce vers rappelle la formule de Supervielle mise en exergue au recueil, « […] Je suis un homme pris / Dans les rets étoilés ».</note>
                 </div>
             </div>
-        <div type="poem" n="8" xml:id="tn-8">
-                <div type="mg" xml:lang="mg" n="8" facs="7fb817f5730d5d078feaf4a7d5f9181d.jpg">
+            <div type="poem" n="8" xml:id="tn-8">
+                <div type="mg" xml:lang="mg" n="8" facs="https://eman-archives.org/francophone/files/fullsize/7fb817f5730d5d078feaf4a7d5f9181d.jpg">
                     <head>8<anchor n="43" xml:id="note-tn-43"/>
                     </head>
                     <lg>
@@ -746,7 +755,7 @@
                         <l>ary hianao koa, ry ahy, o, ry Poezia !</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="8" facs="7fb817f5730d5d078feaf4a7d5f9181d.jpg">
+                <div type="fr" xml:lang="fr" n="8" facs="https://eman-archives.org/francophone/files/fullsize/7fb817f5730d5d078feaf4a7d5f9181d.jpg">
                     <head>8</head>
                     <lg>
                         <l rend="indent">La dévote a fini ses versets quotidiens</l>
@@ -806,7 +815,7 @@
                     <note n="j" xml:id="n-8mg-j" target="note-8mg-j">Ms1 : <del rend="overstrike">reko teo</del> </note>
                     <note n="k" xml:id="n-8mg-k" target="note-8mg-k">Ms1 : <del rend="overstrike">dia</del>/izay </note>
                     <note n="l" xml:id="n-8mg-l" target="note-8mg-l">Ms1 : <del rend="overstrike">(<hi rend="italic">nl nl)</hi>
-                        </del> </note>
+                    </del> </note>
                     <note n="m" xml:id="n-8mg-m" target="note-8mg-m">
                         <hi rend="italic">Mot ajouté à l’interligne dans</hi> Ms1<hi rend="italic">.</hi> </note>
                     <note n="n" xml:id="n-8mg-n" target="note-8mg-n">Ms1 : <del rend="overstrike">mifankahitra</del> </note>
@@ -828,8 +837,8 @@
                     <note n="49" xml:id="n-tn-49" target="note-tn-49">Nous avons dans ce vers une nouvelle occurrence de « hany » au sens d’<hi rend="italic">azur</hi>.</note>
                 </div>
             </div>
-        <div type="poem" n="9" xml:id="tn-9">
-                <div type="mg" xml:lang="mg" n="9" facs="37b07e867c4cefaff82557de88e42a2e.jpg">
+            <div type="poem" n="9" xml:id="tn-9">
+                <div type="mg" xml:lang="mg" n="9" facs="https://eman-archives.org/francophone/files/fullsize/37b07e867c4cefaff82557de88e42a2e.jpg">
                     <head>9<anchor n="50" xml:id="note-tn-50"/>
                     </head>
                     <lg>
@@ -857,7 +866,7 @@
                         <l>sy famafin-kintana isika.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="9" facs="37b07e867c4cefaff82557de88e42a2e.jpg">
+                <div type="fr" xml:lang="fr" n="9" facs="https://eman-archives.org/francophone/files/fullsize/37b07e867c4cefaff82557de88e42a2e.jpg">
                     <head>9</head>
                     <lg>
                         <l rend="indent">Les ruches secrètes sont alignées<anchor n="a" xml:id="note-9fr-a"/>
@@ -900,7 +909,7 @@
                     <note n="d" xml:id="n-9fr-d" target="note-9fr-d">Ms1 : <del rend="overstrike">Sortez-en</del>
                     </note>
                     <note n="e" xml:id="n-9fr-e" target="note-9fr-e">Ms1 : <del rend="overstrike">(<hi rend="italic">nl nl)/</hi>
-                        </del>ailées</note>
+                    </del>ailées</note>
                     <note n="f" xml:id="n-9fr-f" target="note-9fr-f">Ms1 : <del rend="overstrike">l’espace enceinte</del> <hi rend="italic">[barré au crayon rouge épais, puis remplacé par</hi> Or. <hi rend="italic">à l’encre noire très pâle]</hi>
                     </note>
                     <note n="g" xml:id="n-9fr-g" target="note-9fr-g">
@@ -920,8 +929,8 @@
                     <note n="58" xml:id="n-tn-58" target="note-tn-58">Le substantif « cynorrhodons », de même que la réalité qu’il nomme, est quasi-inconnu à Madagascar. JJR le traduit tout simplement par « voa » (<hi rend="italic">fruit, graine, grain</hi>).</note>
                 </div>
             </div>
-        <div type="poem" n="10" xml:id="tn-10">
-                <div type="mg" xml:lang="mg" n="10" facs="37b07e867c4cefaff82557de88e42a2e.jpg">
+            <div type="poem" n="10" xml:id="tn-10">
+                <div type="mg" xml:lang="mg" n="10" facs="https://eman-archives.org/francophone/files/fullsize/37b07e867c4cefaff82557de88e42a2e.jpg">
                     <head>10<anchor n="59" xml:id="note-tn-59"/>
                     </head>
                     <lg>
@@ -954,7 +963,7 @@
                         <l>hatrany amin’ny vavatanin’ny torimaso.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="10" facs="37b07e867c4cefaff82557de88e42a2e.jpg">
+                <div type="fr" xml:lang="fr" n="10" facs="https://eman-archives.org/francophone/files/fullsize/37b07e867c4cefaff82557de88e42a2e.jpg">
                     <head>10</head>
                     <lg>
                         <l rend="indent">Te voilà,</l>
@@ -989,13 +998,13 @@
                 </div>
                 <div type="notes">
                     <note n="a" xml:id="n-10mg-a" target="note-10mg-a">Ms1 : <del rend="overstrike">(<hi rend="italic">nl nl</hi>
-                        </del>
+                    </del>
                         <hi rend="italic">)</hi> / ny</note>
                     <note n="b" xml:id="n-10mg-b" target="note-10mg-b">Ms1 : <del rend="overstrike">(<hi rend="italic">nl nl)</hi>
-                        </del>
+                    </del>
                     </note>
                     <note n="c" xml:id="n-10mg-c" target="note-10mg-c">Ms1 : <hi rend="italic">
-                            <del rend="overstrike">(nl)</del> </hi>
+                        <del rend="overstrike">(nl)</del> </hi>
                     </note>
                     <note n="a" xml:id="n-10fr-a" target="note-10fr-a">
                         <hi rend="italic">Dans</hi> Ms1<hi rend="italic">, figurent, à la suite du vers, un trait oblique et une indication à l’encre noire :</hi> page.</note>
@@ -1004,8 +1013,8 @@
                     <note n="61" xml:id="n-tn-61" target="note-tn-61">« Miato » : verbe qui, en regard de cette expression, signifie <hi rend="italic">s’arrêter, s’interrompre</hi>. La formule française est plus recherchée.</note>
                 </div>
             </div>
-        <div type="poem" n="11" xml:id="tn-11">
-                <div type="mg" xml:lang="mg" n="11" facs="09263dff8441d96aad3f104a4c35c42c.jpg">
+            <div type="poem" n="11" xml:id="tn-11">
+                <div type="mg" xml:lang="mg" n="11" facs="https://eman-archives.org/francophone/files/fullsize/09263dff8441d96aad3f104a4c35c42c.jpg">
                     <head>11<anchor n="62" xml:id="note-tn-62"/>
                     </head>
                     <lg>
@@ -1032,7 +1041,7 @@
                         <l>fa levona ho tain-kintana.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="11" facs="09263dff8441d96aad3f104a4c35c42c.jpg">
+                <div type="fr" xml:lang="fr" n="11" facs="https://eman-archives.org/francophone/files/fullsize/09263dff8441d96aad3f104a4c35c42c.jpg">
                     <head>11</head>
                     <lg>
                         <l rend="indent">Combien de jumeaux sont-ils, les vents ?</l>
@@ -1095,8 +1104,8 @@
                     <note n="66" xml:id="n-tn-66" target="note-tn-66">Le vers a été ajouté après coup dans la version française, dans l’espace restant dans la marge supérieure du poème, alors qu’il est déjà inscrit dans la continuité de la version malgache, d’où une probable antériorité de la version française. L’insertion en français est validée au crayon bleu lors de la troisième campagne du texte.</note>
                 </div>
             </div>
-        <div type="poem" n="12" xml:id="tn-12">
-                <div type="mg" xml:lang="mg" n="12" facs="09263dff8441d96aad3f104a4c35c42c.jpg">
+            <div type="poem" n="12" xml:id="tn-12">
+                <div type="mg" xml:lang="mg" n="12" facs="https://eman-archives.org/francophone/files/fullsize/09263dff8441d96aad3f104a4c35c42c.jpg">
                     <head>12<anchor n="67" xml:id="note-tn-67"/>
                     </head>
                     <lg>
@@ -1124,7 +1133,7 @@
                         <l>izay hiara-voavotra.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="12" facs="09263dff8441d96aad3f104a4c35c42c.jpg">
+                <div type="fr" xml:lang="fr" n="12" facs="https://eman-archives.org/francophone/files/fullsize/09263dff8441d96aad3f104a4c35c42c.jpg">
                     <head>12</head>
                     <lg>
                         <l rend="indent">Pour les pauvres dévorés de punaises aussi grosses que le ciel,</l>
@@ -1165,7 +1174,7 @@
                     <note n="a" xml:id="n-12fr-a" target="note-12fr-a">Ms1 : [,]</note>
                     <note n="b" xml:id="n-12fr-b" target="note-12fr-b">Ms1 : reluisans/t</note>
                     <note n="c" xml:id="n-12fr-c" target="note-12fr-c">Ms1 : <del rend="overstrike">(<hi rend="italic">nl nl)</hi>
-                        </del>
+                    </del>
                     </note>
                     <note n="d" xml:id="n-12fr-d" target="note-12fr-d">
                         <hi rend="italic">Ce vers et le suivant sont continus dans</hi> Ms1<hi rend="italic">.</hi>
@@ -1188,8 +1197,8 @@
                     <note n="72" xml:id="n-tn-72" target="note-tn-72">La modification de « palmiers » en « ramiers » est surprenante, puisque l’image en est totalement transformée. La version malgache propose directement la référence à l’oiseau.</note>
                 </div>
             </div>
-        <div type="poem" n="13" xml:id="tn-13">
-                <div type="mg" xml:lang="mg" n="13" facs="09263dff8441d96aad3f104a4c35c42c.jpg">
+            <div type="poem" n="13" xml:id="tn-13">
+                <div type="mg" xml:lang="mg" n="13" facs="https://eman-archives.org/francophone/files/fullsize/09263dff8441d96aad3f104a4c35c42c.jpg">
                     <head>13<anchor n="73" xml:id="note-tn-73"/>
                     </head>
                     <lg>
@@ -1219,7 +1228,7 @@
                             <anchor n="80" xml:id="note-tn-80"/>.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="13" facs="09263dff8441d96aad3f104a4c35c42c.jpg">
+                <div type="fr" xml:lang="fr" n="13" facs="https://eman-archives.org/francophone/files/fullsize/09263dff8441d96aad3f104a4c35c42c.jpg">
                     <head>13</head>
                     <lg>
                         <l rend="indent">Toutes les saisons sont abolies</l>
@@ -1269,8 +1278,8 @@
                     <note n="81" xml:id="n-tn-81" target="note-tn-81">Ce vers reprend des images de TN12, v.  18 (« babo / captif ») et v.  6 (« tsaoka / élan »).</note>
                 </div>
             </div>
-        <div type="poem" n="14" xml:id="tn-14">
-                <div type="mg" xml:lang="mg" n="14" facs="ae23cce198c7a6af0b1c855ab2932162.jpg">
+            <div type="poem" n="14" xml:id="tn-14">
+                <div type="mg" xml:lang="mg" n="14" facs="https://eman-archives.org/francophone/files/fullsize/ae23cce198c7a6af0b1c855ab2932162.jpg">
                     <head>14<anchor n="82" xml:id="note-tn-82"/>
                     </head>
                     <lg>
@@ -1300,7 +1309,7 @@
                             <anchor n="85" xml:id="note-tn-85"/> matsatso<anchor n="h" xml:id="note-14mg-h"/>.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="14" facs="ae23cce198c7a6af0b1c855ab2932162.jpg">
+                <div type="fr" xml:lang="fr" n="14" facs="https://eman-archives.org/francophone/files/fullsize/ae23cce198c7a6af0b1c855ab2932162.jpg">
                     <head>14</head>
                     <lg>
                         <l rend="indent">Voici</l>
@@ -1379,8 +1388,8 @@
                     </note>
                 </div>
             </div>
-        <div type="poem" n="15" xml:id="tn-15">
-                <div type="mg" xml:lang="mg" n="15" facs="ae23cce198c7a6af0b1c855ab2932162.jpg">
+            <div type="poem" n="15" xml:id="tn-15">
+                <div type="mg" xml:lang="mg" n="15" facs="https://eman-archives.org/francophone/files/fullsize/ae23cce198c7a6af0b1c855ab2932162.jpg">
                     <head>15<anchor n="87" xml:id="note-tn-87"/>
                     </head>
                     <lg>
@@ -1416,7 +1425,7 @@
                         </l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="15" facs="ae23cce198c7a6af0b1c855ab2932162.jpg">
+                <div type="fr" xml:lang="fr" n="15" facs="https://eman-archives.org/francophone/files/fullsize/ae23cce198c7a6af0b1c855ab2932162.jpg">
                     <head>15</head>
                     <lg>
                         <l rend="indent">Tu te leurres,</l>
@@ -1477,8 +1486,8 @@
                     <note n="91" xml:id="n-tn-91" target="note-tn-91">Le vers en malgache apporte une nuance qui n’est pas reprise dans la version française : il parle de la « cime des montagnes ».</note>
                 </div>
             </div>
-        <div type="poem" n="16" xml:id="tn-16">
-                <div type="mg" xml:lang="mg" n="16" facs="04183a61743337dd10e2cf2cee2fafdf.jpg">
+            <div type="poem" n="16" xml:id="tn-16">
+                <div type="mg" xml:lang="mg" n="16" facs="https://eman-archives.org/francophone/files/fullsize/04183a61743337dd10e2cf2cee2fafdf.jpg">
                     <head>16<anchor n="92" xml:id="note-tn-92"/>
                     </head>
                     <lg>
@@ -1499,7 +1508,7 @@
                         <l>hanondrana ireto sobikam-boankazon’alina rehetra ireto.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="16" facs="04183a61743337dd10e2cf2cee2fafdf.jpg">
+                <div type="fr" xml:lang="fr" n="16" facs="https://eman-archives.org/francophone/files/fullsize/04183a61743337dd10e2cf2cee2fafdf.jpg">
                     <head>16</head>
                     <lg>
                         <l rend="indent">Il est des mains rouillées sans nombre,<anchor n="95" xml:id="note-tn-95"/>
@@ -1542,8 +1551,8 @@
                     <note n="96" xml:id="n-tn-96" target="note-tn-96">Ce vers joue sur les échos sonores entre les différents mots, tant dans la version malgache que française. Le tour de force de JJR est d’avoir réussi à maintenir une signification identique.</note>
                 </div>
             </div>
-        <div type="poem" n="17" xml:id="tn-17">
-                <div type="mg" xml:lang="mg" n="17" facs="04183a61743337dd10e2cf2cee2fafdf.jpg">
+            <div type="poem" n="17" xml:id="tn-17">
+                <div type="mg" xml:lang="mg" n="17" facs="https://eman-archives.org/francophone/files/fullsize/04183a61743337dd10e2cf2cee2fafdf.jpg">
                     <head>17<anchor n="97" xml:id="note-tn-97"/>
                     </head>
                     <lg>
@@ -1578,7 +1587,7 @@
                         <l>isaky ny fefika<anchor n="k" xml:id="note-17mg-k"/> ny masoandro.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="17" facs="04183a61743337dd10e2cf2cee2fafdf.jpg">
+                <div type="fr" xml:lang="fr" n="17" facs="https://eman-archives.org/francophone/files/fullsize/04183a61743337dd10e2cf2cee2fafdf.jpg">
                     <head>17</head>
                     <lg>
                         <l rend="indent">Le vitrier nègre</l>
@@ -1670,8 +1679,8 @@
                 </div>
                 
             </div>
-        <div type="poem" n="18" xml:id="tn-18">
-                <div type="mg" xml:lang="mg" n="18" facs="bf6b4d3ce3a2dd6b481da3166a6d71c1.jpg">
+            <div type="poem" n="18" xml:id="tn-18">
+                <div type="mg" xml:lang="mg" n="18" facs="https://eman-archives.org/francophone/files/fullsize/bf6b4d3ce3a2dd6b481da3166a6d71c1.jpg">
                     <head>18<anchor n="105" xml:id="note-tn-105"/>
                     </head>
                     <lg>
@@ -1706,7 +1715,7 @@
                         <l>izay nanjarian’<anchor n="b" xml:id="note-18mg-b"/>ny rantsana rehetra.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="18" facs="bf6b4d3ce3a2dd6b481da3166a6d71c1.jpg">
+                <div type="fr" xml:lang="fr" n="18" facs="https://eman-archives.org/francophone/files/fullsize/bf6b4d3ce3a2dd6b481da3166a6d71c1.jpg">
                     <head>18</head>
                     <lg>
                         <l rend="indent">Tu viens de relire Virgile,<anchor n="107" xml:id="note-tn-107"/>
@@ -1745,31 +1754,31 @@
                 </div>
                 <div type="notes">
                     <note n="a" xml:id="n-18mg-a" target="note-18mg-a">Ms1 : <del rend="overstrike">(<hi rend="italic">nl nl</hi>)/</del>izay</note>
-<note n="b" xml:id="n-18mg-b" target="note-18mg-b">Ms1 : <del rend="overstrike">toa</del>
+                    <note n="b" xml:id="n-18mg-b" target="note-18mg-b">Ms1 : <del rend="overstrike">toa</del>
                     </note>
-<note n="a" xml:id="n-18fr-a" target="note-18fr-a">Ms1 <hi rend="italic">porte</hi> <hi rend="italic">un</hi> <hi rend="italic">signe d’inversion entre</hi> écouter <hi rend="italic">et</hi> aussi.</note>
-<note n="b" xml:id="n-18fr-b" target="note-18fr-b">Or. : regarde</note>
-<note n="c" xml:id="n-18fr-c" target="note-18fr-c">Or. : voici</note>
-<note n="d" xml:id="n-18fr-d" target="note-18fr-d">Ms1 : <del rend="overstrike">de lui</del>
+                    <note n="a" xml:id="n-18fr-a" target="note-18fr-a">Ms1 <hi rend="italic">porte</hi> <hi rend="italic">un</hi> <hi rend="italic">signe d’inversion entre</hi> écouter <hi rend="italic">et</hi> aussi.</note>
+                    <note n="b" xml:id="n-18fr-b" target="note-18fr-b">Or. : regarde</note>
+                    <note n="c" xml:id="n-18fr-c" target="note-18fr-c">Or. : voici</note>
+                    <note n="d" xml:id="n-18fr-d" target="note-18fr-d">Ms1 : <del rend="overstrike">de lui</del>
                     </note>
-<note n="e" xml:id="n-18fr-e" target="note-18fr-e">
+                    <note n="e" xml:id="n-18fr-e" target="note-18fr-e">
                         <hi rend="italic">Mot ajouté à l’interligne inférieur dans</hi> Ms1.</note>
-<note n="f" xml:id="n-18fr-f" target="note-18fr-f">
+                    <note n="f" xml:id="n-18fr-f" target="note-18fr-f">
                         <hi rend="italic">Mot ajouté devant le vers dans</hi> Ms1<hi rend="italic">.</hi>
                     </note>
-<note n="g" xml:id="n-18fr-g" target="note-18fr-g">Ms1 : souffl<del rend="overstrike">ant</del>/souffle</note>
-<note n="105" xml:id="n-tn-105" target="note-tn-105">TN18. Ce poème, écrit le 19/12/31 selon Ms1, présente très peu de retouches. Le trait central a été tracé le long de la version française. Ce poème reflète des réalités légèrement différentes dans les deux versions. En français, il évoque explicitement Virgile au vers 1, mais surtout au vers 4 avec l’adjectif « bucolique », et plus discrètement au vers 3 avec la « néoménie », un substantif abstrait construit sur des racines grecques, d’un usage assez rare. Dans la version malgache, les mots ou expressions qui sont mis en correspondance n’ont pas cette charge d’évocation.</note>
-<note n="106" xml:id="n-tn-106" target="note-tn-106">« Fotoanan’ny tantsaha » : a pour correspondant français « l’heure bucolique », emprunt à Virgile. « Fotoana » signifie <hi rend="italic">rendez-vous, terme, échéance, temps ou lieu fixé</hi> ; il introduit donc une nuance légèrement plus solennelle que le français « heure ». « Saha » a le sens de <hi rend="italic">campagne</hi>. L’expression signifie donc littéralement <hi rend="italic">le temps des gens de la campagne</hi>. Cette périphrase est-elle une traduction du français ? Dans ce vers et le suivant, JJR rapproche deux mots, « tantsaha » et « fitsaharana », qui vient de <hi rend="italic">tsahatra</hi> (<hi rend="italic">halte, arrêt, pause, suspension</hi>). Il prolonge aussi musicalement ce vers 4 par une reprise du préfixe fo dans les deux vers suivants, où il est isolé comme substantif avec le sens de « cœur ».</note>
-<note n="107" xml:id="n-tn-107" target="note-tn-107">JJR se souvient-il dans ce vers de son recueil <hi rend="italic">Chants pour Abéone</hi>, où il célébrait en II « les grâces virgiliennes » (v. 24) ?</note>
-<note n="108" xml:id="n-tn-108" target="note-tn-108">Au mot français « néoménie » correspond en malgache le mot « volantsinana », composé de <hi rend="italic">volana</hi> et de <hi rend="italic">tsinana</hi>, et qui signifie <hi rend="italic">premiers jours de la lune ; demi-cercle ; croissant</hi> [Malz.].</note>
-<note n="109" xml:id="n-tn-109" target="note-tn-109">JJR traduit littéralement la formule « misy » en français par « il y a ».</note>
-<note n="110" xml:id="n-tn-110" target="note-tn-110">Ce vers tendrait à confirmer que JJR a traduit du malgache en français, car il a oublié dans un
-premier mouvement de traduire en français le verbe « apparaı̂t », qui est sous-entendu en malgache. Il
-l’ajoute à la relecture.</note>
-</div>
+                    <note n="g" xml:id="n-18fr-g" target="note-18fr-g">Ms1 : souffl<del rend="overstrike">ant</del>/souffle</note>
+                    <note n="105" xml:id="n-tn-105" target="note-tn-105">TN18. Ce poème, écrit le 19/12/31 selon Ms1, présente très peu de retouches. Le trait central a été tracé le long de la version française. Ce poème reflète des réalités légèrement différentes dans les deux versions. En français, il évoque explicitement Virgile au vers 1, mais surtout au vers 4 avec l’adjectif « bucolique », et plus discrètement au vers 3 avec la « néoménie », un substantif abstrait construit sur des racines grecques, d’un usage assez rare. Dans la version malgache, les mots ou expressions qui sont mis en correspondance n’ont pas cette charge d’évocation.</note>
+                    <note n="106" xml:id="n-tn-106" target="note-tn-106">« Fotoanan’ny tantsaha » : a pour correspondant français « l’heure bucolique », emprunt à Virgile. « Fotoana » signifie <hi rend="italic">rendez-vous, terme, échéance, temps ou lieu fixé</hi> ; il introduit donc une nuance légèrement plus solennelle que le français « heure ». « Saha » a le sens de <hi rend="italic">campagne</hi>. L’expression signifie donc littéralement <hi rend="italic">le temps des gens de la campagne</hi>. Cette périphrase est-elle une traduction du français ? Dans ce vers et le suivant, JJR rapproche deux mots, « tantsaha » et « fitsaharana », qui vient de <hi rend="italic">tsahatra</hi> (<hi rend="italic">halte, arrêt, pause, suspension</hi>). Il prolonge aussi musicalement ce vers 4 par une reprise du préfixe fo dans les deux vers suivants, où il est isolé comme substantif avec le sens de « cœur ».</note>
+                    <note n="107" xml:id="n-tn-107" target="note-tn-107">JJR se souvient-il dans ce vers de son recueil <hi rend="italic">Chants pour Abéone</hi>, où il célébrait en II « les grâces virgiliennes » (v. 24) ?</note>
+                    <note n="108" xml:id="n-tn-108" target="note-tn-108">Au mot français « néoménie » correspond en malgache le mot « volantsinana », composé de <hi rend="italic">volana</hi> et de <hi rend="italic">tsinana</hi>, et qui signifie <hi rend="italic">premiers jours de la lune ; demi-cercle ; croissant</hi> [Malz.].</note>
+                    <note n="109" xml:id="n-tn-109" target="note-tn-109">JJR traduit littéralement la formule « misy » en français par « il y a ».</note>
+                    <note n="110" xml:id="n-tn-110" target="note-tn-110">Ce vers tendrait à confirmer que JJR a traduit du malgache en français, car il a oublié dans un
+                        premier mouvement de traduire en français le verbe « apparaı̂t », qui est sous-entendu en malgache. Il
+                        l’ajoute à la relecture.</note>
+                </div>
             </div>
-        <div type="poem" n="19" xml:id="tn-19">
-                <div type="mg" xml:lang="mg" n="19" facs="bf6b4d3ce3a2dd6b481da3166a6d71c1.jpg">
+            <div type="poem" n="19" xml:id="tn-19">
+                <div type="mg" xml:lang="mg" n="19" facs="https://eman-archives.org/francophone/files/fullsize/bf6b4d3ce3a2dd6b481da3166a6d71c1.jpg">
                     <head>19<anchor n="111" xml:id="note-tn-111"/>
                     </head>
                     <lg>
@@ -1800,7 +1809,7 @@ l’ajoute à la relecture.</note>
                         <l>no natsangana ny fasanao.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="19" facs="bf6b4d3ce3a2dd6b481da3166a6d71c1.jpg">
+                <div type="fr" xml:lang="fr" n="19" facs="https://eman-archives.org/francophone/files/fullsize/bf6b4d3ce3a2dd6b481da3166a6d71c1.jpg">
                     <head>19</head>
                     <lg>
                         <l rend="indent">Il y aura, un jour, un jeune poëte</l>
@@ -1834,26 +1843,26 @@ l’ajoute à la relecture.</note>
                 <div type="notes">
                     <note n="a" xml:id="n-19mg-a" target="note-19mg-a">Ms1 : <del rend="overstrike">hihevitra toa anao,</del>
                     </note>
-<note n="b" xml:id="n-19mg-b" target="note-19mg-b">Ms1 : <del rend="overstrike">vitsy</del>
+                    <note n="b" xml:id="n-19mg-b" target="note-19mg-b">Ms1 : <del rend="overstrike">vitsy</del>
                     </note>
-<note n="c" xml:id="n-19mg-c" target="note-19mg-c">Ms1 : <del rend="overstrike">an tanin’</del>
+                    <note n="c" xml:id="n-19mg-c" target="note-19mg-c">Ms1 : <del rend="overstrike">an tanin’</del>
                     </note>
-<note n="a" xml:id="n-19fr-a" target="note-19fr-a">Ms1 : <del rend="overstrike">pensera comme toi</del>
+                    <note n="a" xml:id="n-19fr-a" target="note-19fr-a">Ms1 : <del rend="overstrike">pensera comme toi</del>
                     </note>
-<note n="b" xml:id="n-19fr-b" target="note-19fr-b">Ms1 : <del rend="overstrike">à la terre</del>
+                    <note n="b" xml:id="n-19fr-b" target="note-19fr-b">Ms1 : <del rend="overstrike">à la terre</del>
                     </note>
-<note n="c" xml:id="n-19fr-c" target="note-19fr-c">Ms1 : <del rend="overstrike" type="double">sera sûr</del> <del rend="overstrike">pensera</del> <hi rend="italic">[puis remplacé par</hi> Or. <hi rend="italic">au crayon bleu épais]</hi>
+                    <note n="c" xml:id="n-19fr-c" target="note-19fr-c">Ms1 : <del rend="overstrike" type="double">sera sûr</del> <del rend="overstrike">pensera</del> <hi rend="italic">[puis remplacé par</hi> Or. <hi rend="italic">au crayon bleu épais]</hi>
                     </note>
-<note n="111" xml:id="n-tn-111" target="note-tn-111">TN19. Ce poème, écrit le 25/12/31 (Jour de Noël) selon Ms1, est conduit par l’écho d’une intertextualité poétique qui le structure. Dès le premier vers, le texte évoque la figure d’un « jeune poète » qu’il appelle à lui pour prolonger sa démarche. Puis, le poème s’inscrit dans une filiation avec Baudelaire et ses <hi rend="italic">Fleurs du Mal</hi>, présentes en creux dans la version française avec l’expression « fleurs souterraines » du vers 4. Le cours du poème s’élève ensuite, niant l’héritage biblique de la Genèse, vers la notion d’« azur » mallarméen (<hi rend="italic">hany</hi> en malgache), qui vient clore le « tombeau du poète » érigé à soi- même par JJR.</note>
-<note n="112" xml:id="n-tn-112" target="note-tn-112">L’adjectif « rare » du vers français a tout d’abord pour équivalent malgache « vitsy » (<hi rend="italic">en petit nombre, peu</hi>), puis « saro-tadiavina » (<hi rend="italic">difficile à trouver</hi>). La modification a été faite, semble-t-il, avant l’écriture du vers suivant, puisque ce dernier est repoussé vers le bas.</note>
-<note n="113" xml:id="n-tn-113" target="note-tn-113">Le motif des « fleurs souterraines » (en malgache « voninkazo ao anaty tany ») n’est pas sans rappeler l’obsession baudelairienne de JJR.</note>
-<note n="114" xml:id="n-tn-114" target="note-tn-114">La version française de « taratry » est une interprétation du mot malgache, qui signifie <hi rend="italic">réflexion de la lumière, réfraction, production de l’image dans l’eau ou la glace, et action de regarder à travers un corps diaphane</hi>. L’idée de lumière faible est présente mais indirectement. Par contre, on note une belle équivalence de musicalité entre les deux versions, la version malgache présentant une assonance en [i] et la version française en [oe]. Le vers est allongé à la relecture dans les deux versions, sans doute après le passage au français.</note>
-<note n="115" xml:id="n-tn-115" target="note-tn-115">Les deux versions du vers sont légèrement différentes : à l’auxiliaire « mbola » (<hi rend="italic">encore</hi>) correspond l’adverbe « toujours » en français.</note>
-<note n="116" xml:id="n-tn-116" target="note-tn-116">Le verbe « mitompo » a le sens de <hi rend="italic">s’entêter</hi>. JJR a hésité sur la transcription en français. Le travail sur la version française est intéressant, puisque JJR modifie le vers une première fois, puis, lors de la campagne au crayon bleu, il revient à la première version, qui comporte une rime interne.</note>
-</div>
+                    <note n="111" xml:id="n-tn-111" target="note-tn-111">TN19. Ce poème, écrit le 25/12/31 (Jour de Noël) selon Ms1, est conduit par l’écho d’une intertextualité poétique qui le structure. Dès le premier vers, le texte évoque la figure d’un « jeune poète » qu’il appelle à lui pour prolonger sa démarche. Puis, le poème s’inscrit dans une filiation avec Baudelaire et ses <hi rend="italic">Fleurs du Mal</hi>, présentes en creux dans la version française avec l’expression « fleurs souterraines » du vers 4. Le cours du poème s’élève ensuite, niant l’héritage biblique de la Genèse, vers la notion d’« azur » mallarméen (<hi rend="italic">hany</hi> en malgache), qui vient clore le « tombeau du poète » érigé à soi- même par JJR.</note>
+                    <note n="112" xml:id="n-tn-112" target="note-tn-112">L’adjectif « rare » du vers français a tout d’abord pour équivalent malgache « vitsy » (<hi rend="italic">en petit nombre, peu</hi>), puis « saro-tadiavina » (<hi rend="italic">difficile à trouver</hi>). La modification a été faite, semble-t-il, avant l’écriture du vers suivant, puisque ce dernier est repoussé vers le bas.</note>
+                    <note n="113" xml:id="n-tn-113" target="note-tn-113">Le motif des « fleurs souterraines » (en malgache « voninkazo ao anaty tany ») n’est pas sans rappeler l’obsession baudelairienne de JJR.</note>
+                    <note n="114" xml:id="n-tn-114" target="note-tn-114">La version française de « taratry » est une interprétation du mot malgache, qui signifie <hi rend="italic">réflexion de la lumière, réfraction, production de l’image dans l’eau ou la glace, et action de regarder à travers un corps diaphane</hi>. L’idée de lumière faible est présente mais indirectement. Par contre, on note une belle équivalence de musicalité entre les deux versions, la version malgache présentant une assonance en [i] et la version française en [oe]. Le vers est allongé à la relecture dans les deux versions, sans doute après le passage au français.</note>
+                    <note n="115" xml:id="n-tn-115" target="note-tn-115">Les deux versions du vers sont légèrement différentes : à l’auxiliaire « mbola » (<hi rend="italic">encore</hi>) correspond l’adverbe « toujours » en français.</note>
+                    <note n="116" xml:id="n-tn-116" target="note-tn-116">Le verbe « mitompo » a le sens de <hi rend="italic">s’entêter</hi>. JJR a hésité sur la transcription en français. Le travail sur la version française est intéressant, puisque JJR modifie le vers une première fois, puis, lors de la campagne au crayon bleu, il revient à la première version, qui comporte une rime interne.</note>
+                </div>
             </div>
-        <div type="poem" n="20" xml:id="tn-20">
-                <div type="mg" xml:lang="mg" n="20" facs="1fb10f7fa883fe5d9bfcbbc85c74ad50.jpg">
+            <div type="poem" n="20" xml:id="tn-20">
+                <div type="mg" xml:lang="mg" n="20" facs="https://eman-archives.org/francophone/files/fullsize/1fb10f7fa883fe5d9bfcbbc85c74ad50.jpg">
                     <head>20<anchor n="117" xml:id="note-tn-117"/>
                     </head>
                     <lg>
@@ -1890,7 +1899,7 @@ l’ajoute à la relecture.</note>
                         <l>ny famoloany eny an-danitra ambony.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="20" facs="1fb10f7fa883fe5d9bfcbbc85c74ad50.jpg">
+                <div type="fr" xml:lang="fr" n="20" facs="https://eman-archives.org/francophone/files/fullsize/1fb10f7fa883fe5d9bfcbbc85c74ad50.jpg">
                     <head>20</head>
                     <lg>
                         <l rend="indent">Que<anchor n="a" xml:id="note-20fr-a"/> de fois relayés</l>
@@ -1926,41 +1935,41 @@ l’ajoute à la relecture.</note>
                 </div>
                 <div type="notes">
                     <note n="a" xml:id="n-20mg-a" target="note-20mg-a">Ms1 : <del rend="overstrike">(<hi rend="italic">nl nl</hi>)</del> / tsinin’</note>
-<note n="b" xml:id="n-20mg-b" target="note-20mg-b">Ms1 : <del rend="overstrike">(<hi rend="italic">nl nl</hi>)</del> / <del rend="overstrike">sy miraotra</del>
+                    <note n="b" xml:id="n-20mg-b" target="note-20mg-b">Ms1 : <del rend="overstrike">(<hi rend="italic">nl nl</hi>)</del> / <del rend="overstrike">sy miraotra</del>
                     </note>
-<note n="c" xml:id="n-20mg-c" target="note-20mg-c">
+                    <note n="c" xml:id="n-20mg-c" target="note-20mg-c">
                         <hi rend="italic">Dans</hi> Ms1, sy solila <hi rend="italic">ajouté à la suite du vers, à l’encre noire.</hi>
                     </note>
-<note n="d" xml:id="n-20mg-d" target="note-20mg-d">Ms1 : [.]</note>
-<note n="e" xml:id="n-20mg-e" target="note-20mg-e">Ms1 : <del rend="overstrike">sy</del>/ary</note>
-<note n="a" xml:id="n-20fr-a" target="note-20fr-a">Ms1 : <del rend="overstrike">Combien</del>
+                    <note n="d" xml:id="n-20mg-d" target="note-20mg-d">Ms1 : [.]</note>
+                    <note n="e" xml:id="n-20mg-e" target="note-20mg-e">Ms1 : <del rend="overstrike">sy</del>/ary</note>
+                    <note n="a" xml:id="n-20fr-a" target="note-20fr-a">Ms1 : <del rend="overstrike">Combien</del>
                     </note>
-<note n="b" xml:id="n-20fr-b" target="note-20fr-b">
+                    <note n="b" xml:id="n-20fr-b" target="note-20fr-b">
                         <hi rend="italic">Mot ajouté devant le vers dans</hi> Ms1<hi rend="italic">.</hi>
                     </note>
-<note n="c" xml:id="n-20fr-c" target="note-20fr-c">Ms1 : <del rend="overstrike">combien</del>
+                    <note n="c" xml:id="n-20fr-c" target="note-20fr-c">Ms1 : <del rend="overstrike">combien</del>
                     </note>
-<note n="d" xml:id="n-20fr-d" target="note-20fr-d">Ms1 : <del rend="overstrike">ruisselante,</del> ruisselante</note>
-<note n="e" xml:id="n-20fr-e" target="note-20fr-e">Ms1 : <del rend="overstrike">arrasés</del> arasés <hi rend="italic">[correction au crayon rouge épais]</hi> // Rv1 : arrosés</note>
-<note n="f" xml:id="n-20fr-f" target="note-20fr-f">
+                    <note n="d" xml:id="n-20fr-d" target="note-20fr-d">Ms1 : <del rend="overstrike">ruisselante,</del> ruisselante</note>
+                    <note n="e" xml:id="n-20fr-e" target="note-20fr-e">Ms1 : <del rend="overstrike">arrasés</del> arasés <hi rend="italic">[correction au crayon rouge épais]</hi> // Rv1 : arrosés</note>
+                    <note n="f" xml:id="n-20fr-f" target="note-20fr-f">
                         <hi rend="italic">Sans virgule dans</hi> Rv1<hi rend="italic">.</hi>
                     </note>
-<note n="g" xml:id="n-20fr-g" target="note-20fr-g">
+                    <note n="g" xml:id="n-20fr-g" target="note-20fr-g">
                         <hi rend="italic">Sans tiret dans</hi> Rv1<hi rend="italic">.</hi>
                     </note>
-<note n="h" xml:id="n-20fr-h" target="note-20fr-h">Ms1 : <del rend="overstrike">du cresson</del>
+                    <note n="h" xml:id="n-20fr-h" target="note-20fr-h">Ms1 : <del rend="overstrike">du cresson</del>
                     </note>
-<note n="i" xml:id="n-20fr-i" target="note-20fr-i">Ms1 : <del rend="overstrike">voient</del>
+                    <note n="i" xml:id="n-20fr-i" target="note-20fr-i">Ms1 : <del rend="overstrike">voient</del>
                     </note>
-<note n="117" xml:id="n-tn-117" target="note-tn-117">TN20. Selon Ms1, ce poème a été écrit près d’un mois après le précédent, le 21/1/32. Le trait central suit la version française, mais le poème maintient en français le rythme et la syntaxe de la langue malgache. Ainsi, le verbe est élidé dans la première strophe, puis c’est le sujet qui est sous-entendu dans les deuxième, troisième et quatrième strophes. On retrouve ici dans le lexique un ensemble végétal caractéristique de l’imaginaire de JJR.</note>
-<note n="118" xml:id="n-tn-118" target="note-tn-118">La version malgache fait davantage sentir l’antithèse puisqu’à la version française « les laboureurs de l’azur » correspond littéralement « les travailleurs de la terre dans l’azur ». On entend une proximité sonore paradoxale entre les deux termes de l’antithèse, « tany » et « hany ».</note>
-<note n="119" xml:id="n-tn-119" target="note-tn-119">La version française reprend la syntaxe malgache Prédicat-Sujet (sous-entendu). On a ici un écho puissant du lexique de PS3 (« mamafy / semer », puis « voa / fruits » et « taho / tiges »).</note>
-<note n="120" xml:id="n-tn-120" target="note-tn-120">Le mot « glaı̈euls » est également présent en TN3, v. 13, et en PS10 (« Naissance du jour »), v. 5.</note>
-<note n="121" xml:id="n-tn-121" target="note-tn-121">« Famoloana » : aires où l’on repique le riz. JJR trouve une chute peu banale en français avec « aires aériennes », qu’il semble avoir de la difficulté à rendre en malgache avec la périphrase « famoloana eo an-danitra ambony » (littéralement, <hi rend="italic">aires des cultivateurs là-haut dans le ciel</hi>).</note>
-</div>
+                    <note n="117" xml:id="n-tn-117" target="note-tn-117">TN20. Selon Ms1, ce poème a été écrit près d’un mois après le précédent, le 21/1/32. Le trait central suit la version française, mais le poème maintient en français le rythme et la syntaxe de la langue malgache. Ainsi, le verbe est élidé dans la première strophe, puis c’est le sujet qui est sous-entendu dans les deuxième, troisième et quatrième strophes. On retrouve ici dans le lexique un ensemble végétal caractéristique de l’imaginaire de JJR.</note>
+                    <note n="118" xml:id="n-tn-118" target="note-tn-118">La version malgache fait davantage sentir l’antithèse puisqu’à la version française « les laboureurs de l’azur » correspond littéralement « les travailleurs de la terre dans l’azur ». On entend une proximité sonore paradoxale entre les deux termes de l’antithèse, « tany » et « hany ».</note>
+                    <note n="119" xml:id="n-tn-119" target="note-tn-119">La version française reprend la syntaxe malgache Prédicat-Sujet (sous-entendu). On a ici un écho puissant du lexique de PS3 (« mamafy / semer », puis « voa / fruits » et « taho / tiges »).</note>
+                    <note n="120" xml:id="n-tn-120" target="note-tn-120">Le mot « glaı̈euls » est également présent en TN3, v. 13, et en PS10 (« Naissance du jour »), v. 5.</note>
+                    <note n="121" xml:id="n-tn-121" target="note-tn-121">« Famoloana » : aires où l’on repique le riz. JJR trouve une chute peu banale en français avec « aires aériennes », qu’il semble avoir de la difficulté à rendre en malgache avec la périphrase « famoloana eo an-danitra ambony » (littéralement, <hi rend="italic">aires des cultivateurs là-haut dans le ciel</hi>).</note>
+                </div>
             </div>
-        <div type="poem" n="21" xml:id="tn-21">
-                <div type="mg" xml:lang="mg" n="21" facs="01936798678111ea45558dbd94cfc4b5.jpg">
+            <div type="poem" n="21" xml:id="tn-21">
+                <div type="mg" xml:lang="mg" n="21" facs="https://eman-archives.org/francophone/files/fullsize/01936798678111ea45558dbd94cfc4b5.jpg">
                     <head>21<anchor n="122" xml:id="note-tn-122"/>
                     </head>
                     <lg>
@@ -1985,7 +1994,7 @@ l’ajoute à la relecture.</note>
                         <l>eny amin’ny vahin-danitra.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="21" facs="01936798678111ea45558dbd94cfc4b5.jpg">
+                <div type="fr" xml:lang="fr" n="21" facs="https://eman-archives.org/francophone/files/fullsize/01936798678111ea45558dbd94cfc4b5.jpg">
                     <head>21<anchor n="a" xml:id="note-21fr-a"/>
                     </head>
                     <lg>
@@ -2042,8 +2051,8 @@ l’ajoute à la relecture.</note>
                     <note n="126" xml:id="n-tn-126" target="note-tn-126">JJR utilise à nouveau l’expression « des myriades / alinalina » comme en PS8 (« Images lunaires »), v. 7 : « manoka-maso : kintana alinalina /dont s’ouvrent les yeux en myriades d’étoiles ».</note>
                 </div>
             </div>
-        <div type="poem" n="22" xml:id="tn-22">
-                <div type="mg" xml:lang="mg" n="22" facs="01936798678111ea45558dbd94cfc4b5.jpg">
+            <div type="poem" n="22" xml:id="tn-22">
+                <div type="mg" xml:lang="mg" n="22" facs="https://eman-archives.org/francophone/files/fullsize/01936798678111ea45558dbd94cfc4b5.jpg">
                     <head>22<anchor n="127" xml:id="note-tn-127"/>
                     </head>
                     <lg>
@@ -2074,7 +2083,7 @@ l’ajoute à la relecture.</note>
                         <l>izay miporitsaka, tsy azo, eran’ny lanitra.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="22" facs="01936798678111ea45558dbd94cfc4b5.jpg">
+                <div type="fr" xml:lang="fr" n="22" facs="https://eman-archives.org/francophone/files/fullsize/01936798678111ea45558dbd94cfc4b5.jpg">
                     <head>22</head>
                     <lg>
                         <l rend="indent">Au bord des ombres qui stagnent,</l>
@@ -2110,7 +2119,7 @@ l’ajoute à la relecture.</note>
                 </div>
                 <div type="notes">
                     <note n="a" xml:id="n-22mg-a" target="note-22mg-a">Ms1 : <del rend="overstrike">
-                            <hi rend="italic">(nl nl</hi>)</del> <hi rend="italic">[à l’interligne inférieur]</hi>
+                        <hi rend="italic">(nl nl</hi>)</del> <hi rend="italic">[à l’interligne inférieur]</hi>
                     </note>
                     <note n="b" xml:id="n-22mg-b" target="note-22mg-b">Ms1 : <del rend="overstrike">ambony</del>
                     </note>
@@ -2139,8 +2148,8 @@ l’ajoute à la relecture.</note>
                     <note n="133" xml:id="n-tn-133" target="note-tn-133">« Eran’ny lanitra » a un sens d’étendue (« dans toute l’étendue du ciel »), davantage que de transversalité comme dans la version française. Le substantif « azur » ne correspond pas directement à « lanitra » (<hi rend="italic">ciel</hi>).</note>
                 </div>
             </div>
-        <div type="poem" n="23" xml:id="tn-23">
-                <div type="mg" xml:lang="mg" n="23" facs="723ba4ba2e2387a8977fa8cfbf3732c1.jpg">
+            <div type="poem" n="23" xml:id="tn-23">
+                <div type="mg" xml:lang="mg" n="23" facs="https://eman-archives.org/francophone/files/fullsize/723ba4ba2e2387a8977fa8cfbf3732c1.jpg">
                     <head>23<anchor n="134" xml:id="note-tn-134"/>
                     </head>
                     <lg>
@@ -2172,7 +2181,7 @@ l’ajoute à la relecture.</note>
                         </l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="23" facs="723ba4ba2e2387a8977fa8cfbf3732c1.jpg">
+                <div type="fr" xml:lang="fr" n="23" facs="https://eman-archives.org/francophone/files/fullsize/723ba4ba2e2387a8977fa8cfbf3732c1.jpg">
                     <head>23</head>
                     <lg>
                         <l rend="indent">Lente</l>
@@ -2231,8 +2240,8 @@ l’ajoute à la relecture.</note>
                     <note n="139" xml:id="n-tn-139" target="note-tn-139">On observe dans les deux versions un jeu entre deux synonymes positionnés en fin de vers : « ciel » / « azur » en français et « lanitra » / « hany » en malgache ; le premier est le mot usuel et l’autre un mot renouvelé par la création poétique.</note>
                 </div>
             </div>
-        <div type="poem" n="24" xml:id="tn-24">
-                <div type="mg" xml:lang="mg" n="24" facs="723ba4ba2e2387a8977fa8cfbf3732c1.jpg">
+            <div type="poem" n="24" xml:id="tn-24">
+                <div type="mg" xml:lang="mg" n="24" facs="https://eman-archives.org/francophone/files/fullsize/723ba4ba2e2387a8977fa8cfbf3732c1.jpg">
                     <head>24<anchor n="140" xml:id="note-tn-140"/>
                     </head>
                     <lg>
@@ -2259,7 +2268,7 @@ l’ajoute à la relecture.</note>
                         <l>izay nanjarian’ny takamaso rehetra<anchor n="142" xml:id="note-tn-142"/>.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="24" facs="723ba4ba2e2387a8977fa8cfbf3732c1.jpg">
+                <div type="fr" xml:lang="fr" n="24" facs="https://eman-archives.org/francophone/files/fullsize/723ba4ba2e2387a8977fa8cfbf3732c1.jpg">
                     <head>24</head>
                     <lg>
                         <l rend="indent">Pour<anchor n="a" xml:id="note-24fr-a"/>
@@ -2312,8 +2321,8 @@ l’ajoute à la relecture.</note>
                     <note n="145" xml:id="n-tn-145" target="note-tn-145">Voir note [140].</note>
                 </div>
             </div>
-        <div type="poem" n="25" xml:id="tn-25">
-                <div type="mg" xml:lang="mg" n="25" facs="cdbf8af7c310aaf779ae8698d3d16b9b.jpg">
+            <div type="poem" n="25" xml:id="tn-25">
+                <div type="mg" xml:lang="mg" n="25" facs="https://eman-archives.org/francophone/files/fullsize/cdbf8af7c310aaf779ae8698d3d16b9b.jpg">
                     <head>25<anchor n="146" xml:id="note-tn-146"/>
                     </head>
                     <lg>
@@ -2344,7 +2353,7 @@ l’ajoute à la relecture.</note>
                         <l>ary<anchor n="d" xml:id="note-25mg-d"/> hoverin’ny fipararetran’ny volomasony kely indrindra.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="25" facs="cdbf8af7c310aaf779ae8698d3d16b9b.jpg">
+                <div type="fr" xml:lang="fr" n="25" facs="https://eman-archives.org/francophone/files/fullsize/cdbf8af7c310aaf779ae8698d3d16b9b.jpg">
                     <head>25</head>
                     <lg>
                         <l rend="indent">Lames<anchor n="a" xml:id="note-25fr-a"/> d’eau<anchor n="149" xml:id="note-tn-149"/>, verres étincelants</l>
@@ -2408,8 +2417,8 @@ l’ajoute à la relecture.</note>
                     <note n="152" xml:id="n-tn-152" target="note-tn-152">Vers manifestement ajouté entre le 1 er et le 2 avril 1932. JJR a daté une première fois son poème le 1<hi rend="sup">er</hi> , sans doute en le terminant avec le vers 15. Puis, il a rajouté le vers 17 en datant le poème du 2 avril, ajoutant encore à la suite le vers 16 qui amène en retour une modification au vers 17 en malgache.</note>
                 </div>
             </div>
-        <div type="poem" n="26" xml:id="tn-26">
-                <div type="mg" xml:lang="mg" n="26" facs="cdbf8af7c310aaf779ae8698d3d16b9b.jpg">
+            <div type="poem" n="26" xml:id="tn-26">
+                <div type="mg" xml:lang="mg" n="26" facs="https://eman-archives.org/francophone/files/fullsize/cdbf8af7c310aaf779ae8698d3d16b9b.jpg">
                     <head>26<anchor n="153" xml:id="note-tn-153"/>
                     </head>
                     <lg>
@@ -2443,7 +2452,7 @@ l’ajoute à la relecture.</note>
                         <l>moa ve tsy hiverina amintsika<anchor n="f" xml:id="note-26mg-f"/> hafa sy vaovao izy ?</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="26" facs="cdbf8af7c310aaf779ae8698d3d16b9b.jpg">
+                <div type="fr" xml:lang="fr" n="26" facs="https://eman-archives.org/francophone/files/fullsize/cdbf8af7c310aaf779ae8698d3d16b9b.jpg">
                     <head>26</head>
                     <lg>
                         <l rend="indent">Tu t’es construit<anchor n="a" xml:id="note-26fr-a"/> une tour sous le vent<anchor n="b" xml:id="note-26fr-b"/>
@@ -2483,7 +2492,7 @@ l’ajoute à la relecture.</note>
                 <div type="notes">
                     <note n="a" xml:id="n-26mg-a" target="note-26mg-a">Ms1 : <del rend="overstrike">saron/</del>manjavona </note>
                     <note n="b" xml:id="n-26mg-b" target="note-26mg-b">Ms1 : <del rend="overstrike">(<hi rend="italic">nl nl)/</hi>
-                        </del>antsisin’ </note>
+                    </del>antsisin’ </note>
                     <note n="c" xml:id="n-26mg-c" target="note-26mg-c">Ms1: <del rend="overstrike">H/</del>Mampaninona </note>
                     <note n="d" xml:id="n-26mg-d" target="note-26mg-d">Ms1 : <del rend="overstrike">ny</del> hafaliana <del rend="overstrike">sy</del> masontsika <del rend="overstrike">anio</del> </note>
                     <note n="e" xml:id="n-26mg-e" target="note-26mg-e">Ms1 : <del rend="overstrike">hiaraka amin’ny aza</del> </note>
@@ -2506,8 +2515,8 @@ l’ajoute à la relecture.</note>
                     
                 </div>
             </div>
-        <div type="poem" n="27" xml:id="tn-27">
-                <div type="mg" xml:lang="mg" n="27" facs="0cdae3d91552ff5f96fe8a2eb8846f28.jpg">
+            <div type="poem" n="27" xml:id="tn-27">
+                <div type="mg" xml:lang="mg" n="27" facs="https://eman-archives.org/francophone/files/fullsize/0cdae3d91552ff5f96fe8a2eb8846f28.jpg">
                     <head>27<anchor n="160" xml:id="note-tn-160"/>
                     </head>
                     <lg>
@@ -2546,7 +2555,7 @@ l’ajoute à la relecture.</note>
                         </l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="27" facs="0cdae3d91552ff5f96fe8a2eb8846f28.jpg">
+                <div type="fr" xml:lang="fr" n="27" facs="https://eman-archives.org/francophone/files/fullsize/0cdae3d91552ff5f96fe8a2eb8846f28.jpg">
                     <head>27</head>
                     <lg>
                         <l rend="indent">Sœurs du silence en la tristesse,</l>
@@ -2618,8 +2627,8 @@ l’ajoute à la relecture.</note>
                     <note n="162" xml:id="n-tn-162" target="note-tn-162">JJR crée une distorsion dans ce vers puisqu’en malgache les doigts sont qualifiés de « bakora » (<hi rend="italic">gros, mou</hi>), alors qu’en français ils sont dits « frêles ». En PS3 (« Été »), au contraire, JJR propose un équivalent de « frêle » en malgache au vers 4 : « maboly tahon-drano malefo / plante des tiges d’eau frêles ».</note>
                 </div>
             </div>
-        <div type="poem" n="28" xml:id="tn-28">
-                <div type="mg" xml:lang="mg" n="28" facs="0cdae3d91552ff5f96fe8a2eb8846f28.jpg">
+            <div type="poem" n="28" xml:id="tn-28">
+                <div type="mg" xml:lang="mg" n="28" facs="https://eman-archives.org/francophone/files/fullsize/0cdae3d91552ff5f96fe8a2eb8846f28.jpg">
                     <head>28<anchor n="163" xml:id="note-tn-163"/>
                     </head>
                     <lg>
@@ -2649,7 +2658,7 @@ l’ajoute à la relecture.</note>
                         <l>tamin’ny hianao<anchor n="e" xml:id="note-28mg-e"/> nanara-nofy tany am-paran’ny tany<anchor n="f" xml:id="note-28mg-f"/> ?</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="28" facs="0cdae3d91552ff5f96fe8a2eb8846f28.jpg">
+                <div type="fr" xml:lang="fr" n="28" facs="https://eman-archives.org/francophone/files/fullsize/0cdae3d91552ff5f96fe8a2eb8846f28.jpg">
                     <head>28</head>
                     <lg>
                         <l rend="indent">Écoute les filles de la pluie<anchor n="168" xml:id="note-tn-168"/>
@@ -2710,8 +2719,8 @@ l’ajoute à la relecture.</note>
                     <note n="170" xml:id="n-tn-170" target="note-tn-170">La version malgache « boza-tenina » (<hi rend="italic">gerbes de glaı̈euls</hi>) est plus explicite.</note>
                 </div>
             </div>
-        <div type="poem" n="29" xml:id="tn-29">
-                <div type="mg" xml:lang="mg" n="29" facs="e6d57836a191414d2cd87b79b36678d5.jpg">
+            <div type="poem" n="29" xml:id="tn-29">
+                <div type="mg" xml:lang="mg" n="29" facs="https://eman-archives.org/francophone/files/fullsize/e6d57836a191414d2cd87b79b36678d5.jpg">
                     <head>29<anchor n="171" xml:id="note-tn-171"/>
                     </head>
                     <lg>
@@ -2744,7 +2753,7 @@ l’ajoute à la relecture.</note>
                         <l>manavesatra ny alina efa feno.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="29" facs="e6d57836a191414d2cd87b79b36678d5.jpg">
+                <div type="fr" xml:lang="fr" n="29" facs="https://eman-archives.org/francophone/files/fullsize/e6d57836a191414d2cd87b79b36678d5.jpg">
                     <head>29</head>
                     <lg>
                         <l rend="indent">Il est une eau vive</l>
@@ -2803,8 +2812,8 @@ l’ajoute à la relecture.</note>
                     <note n="176" xml:id="n-tn-176" target="note-tn-176">L’« ombre septuple » apparaissait déjà en TN3, v. 3 : « voahenjana ao anaty aloka fito sosona / tendue dans l’ombre septuple » ; et avec une variante en PS3 (« Été »), v. 21 : « ou que la plantation de ceux qui sont sous la terre / devient deux fois ombre dans les ténèbres ».</note>
                 </div>
             </div>
-        <div type="poem" n="30" xml:id="tn-30">
-                <div type="mg" xml:lang="mg" n="30" facs="204d26eae8cb5a5d7c546b35bc4ae364.jpg">
+            <div type="poem" n="30" xml:id="tn-30">
+                <div type="mg" xml:lang="mg" n="30" facs="https://eman-archives.org/francophone/files/fullsize/204d26eae8cb5a5d7c546b35bc4ae364.jpg">
                     <head>30<anchor n="177" xml:id="note-tn-177"/>
                     </head>
                     <lg>
@@ -2839,7 +2848,7 @@ l’ajoute à la relecture.</note>
                         <l>mipoitra eny amin’ny kintana terabao<anchor n="185" xml:id="note-tn-185"/>.</l>
                     </lg>
                 </div>
-                <div type="fr" xml:lang="fr" n="30" facs="204d26eae8cb5a5d7c546b35bc4ae364.jpg">
+                <div type="fr" xml:lang="fr" n="30" facs="https://eman-archives.org/francophone/files/fullsize/204d26eae8cb5a5d7c546b35bc4ae364.jpg">
                     <head>30</head>
                     <lg>
                         <l rend="indent">Vaines, toutes ces anticipations</l>
@@ -2904,5 +2913,5 @@ l’ajoute à la relecture.</note>
                 </div>
             </div>
         </body>
-   </text>
+    </text>
 </TEI>
