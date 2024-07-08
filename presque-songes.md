@@ -2087,7 +2087,7 @@ et à ces jeunes hommes, et à ces jeunes femmes
 pareillement rendus à la nature par la chute de l’oiseau de lumière  
 puis par son relèvement ?  
 
-Je les guette pendant le règne de l’été  
+Je les guette pendant le règne de l’été,  
 et je les vois qui se donnent la main  
 aux frontières des légendes,  
 aux rives du fleuve des fables ;  
@@ -2159,7 +2159,7 @@ le matin même du jour où tu nous quittas.
 Une porte de pierre nous sépare,  
 une porte de vent divise nos vies.  
 Dors-tu sur la terre rouge où tu es couchée,  
-sur cette terre rouge où l’herbe elle-même ne pousse pas                          
+sur cette terre rouge où l’herbe elle-même ne pousse pas,                          
 mais où il y a des fourmis aveugles qu’enivre  
 le vin des raisins noirs de tes yeux ?  
 
@@ -2180,7 +2180,7 @@ J’en suis excédé. Mais voici des pages encore blanches
 qui dorment parmi tes manuscrits  
 et parmi les livres que tu nous a laissés.                          
 Seul le deuil, seul le silence  
-y tracent des signes inutiles ;  
+y tracent des signes inutiles  
 et déposent après leur signature de néant ;  
 
 et c’est nous, les vivants, qui les remplirons de chants  
